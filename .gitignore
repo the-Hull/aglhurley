@@ -1,0 +1,9 @@
+
+alhurley.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+blogdown
+.DS_Store # if a windows user, Thumbs.db instead
+public/ # if using Netlify
