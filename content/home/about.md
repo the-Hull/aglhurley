@@ -11,8 +11,9 @@ weight = 5
 [interests]
   interests = [
     "Plant-Water Interactions",
-    "Data Science",
-    "Software Development"
+    "Data Science and Visualization",
+    "Software Development",
+    "Computational Ecology"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -37,7 +38,7 @@ weight = 5
 
 ## Alex, who?
 
-I am an early-career researcher at the [University of Birmingham](http://www.birmingham.ac.uk) under [Dr Nick Kettridge](http://www.birmingham.ac.uk/staff/profiles/gees/kettridge-nick.aspx) and [Prof Stefan Krause](http://www.birmingham.ac.uk/staff/profiles/gees/krause-stefan.aspx). I mostly spend my days working toward the completion of my **PhD**, but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working in collaboratively is always a great joy!
+I am an early-career researcher at the [University of Birmingham](http://www.birmingham.ac.uk) under [Dr Nick Kettridge](http://www.birmingham.ac.uk/staff/profiles/gees/kettridge-nick.aspx) and [Prof Stefan Krause](http://www.birmingham.ac.uk/staff/profiles/gees/krause-stefan.aspx). I mostly spend my days working toward the completion of my **PhD**, but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working collaboratively is always a great joy!
 
 For a detailed CV click **here**
 

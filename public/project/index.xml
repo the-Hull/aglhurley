@@ -7,27 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Alexander G. Hurley</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Deep Learning</title>
-      <link>/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Open source software development</title>
+      <link>/project/software/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/deep-learning/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <guid>/project/software/</guid>
+      <description>Research is generally highly domain and application specific and therefore often requires unique and tailored data analyses approaches. While specialized, many approaches are well established within scientific communities, yet are applied on a variety of platforms in a non-standardized manner. By developing and distributing well-documented, open-source software, such analyses can become more accessible, aiding in advancing science toward more reproducibility.
+My software is written in R (for statistical computing) and freely available via my GitHub repositories.</description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Ecohydrological functioning of shallow Boreal Plain wetlands (PhD)</title>
+      <link>/project/phd-research/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/example-external-project/</guid>
-      <description></description>
+      <guid>/project/phd-research/</guid>
+      <description>Background My research focuses on the interplay of hydrology and ecology of shallow, ephemeral wetlands in the Boreal Plain (Alberta, Canada). In particular, I am delineating processes that allow surplus water generation in a sub-humid environment, linking plant community dynamics and vegetation structure with water movement at multiple scales (i.e. leaf to catchment). With this research I hope to inform the reclamation of mine closure sites in the Athabasca Oil Sands Region, where the reconstruction of ecosystems often requires estimating delicate water balances to meet future, often conflicting goals (e.</description>
     </item>
     
   </channel>

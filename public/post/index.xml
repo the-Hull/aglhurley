@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>R in Hydrology Short Course at EGU2018</title>
+      <link>/2018/02/26/r-in-hydrology-short-course/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/26/r-in-hydrology-short-course/</guid>
+      <description>What?Why?Where?When?</description>
+    </item>
+    
+    <item>
+      <title>First things first</title>
+      <link>/2018/02/25/intro/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/25/intro/</guid>
+      <description>Welcome! Happy to see you here. Blog posts on my website will hopefully not just be a brain dump reminding me of my ventures at some point in the future, but also spur your thoughts, help you solve a problem, or maybe get you interested in exchanging ideas. In any case, I&amp;rsquo;m looking forward to creating some content on ecological and hydrological topics as well as some data science and visualization approaches.</description>
+    </item>
+    
+    <item>
       <title>Academic: the website designer for Hugo</title>
       <link>/2016/04/20/academic-the-website-designer-for-hugo/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
@@ -30,9 +48,9 @@ Key features:
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>trueR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
     </item>
     
   </channel>

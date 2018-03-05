@@ -141,7 +141,7 @@
         
 
         <li class="nav-item">
-          <a href="/#publications_selected" data-target="#publications_selected">
+          <a href="/#publications" data-target="#publications">
             
             <span>Publications</span>
             
@@ -259,7 +259,7 @@ background-color: #4dd2ff;
 
 
 background-image:
-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
 url('/img/headers/lake.jpg');
 
 ;">
@@ -271,36 +271,53 @@ url('/img/headers/lake.jpg');
     </h1>
 
     
-    <p class="hero-lead">The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀
+    <p class="hero-lead"><br>
 <br>
-<small><a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a></small>
-<br><br>
-<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=star&amp;count=true&amp;size=large" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
-<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=fork&amp;count=true&amp;size=large" scrolling="0" width="158px" height="30px" frameborder="0"></iframe></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br></p>
 
-<script type="text/javascript">
-  (function defer() {
-    if (window.jQuery) {
-      jQuery(document).ready(function(){
-        GetLatestReleaseInfo();
-      });
-    } else {
-      setTimeout(function() { defer() }, 50);
-    }
-  })();  
-  function GetLatestReleaseInfo() {
-    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
-      let release = json[0];
-      // let downloadURL = release.zipball_url;
-      $('#academic-release').text('Latest release ' + release.name);  
-    });    
-}  
-</script>
+<h1 id="script-type-text-javascript"><script type="text/javascript"></h1>
+
+<h1 id="function-defer">(function defer() {</h1>
+
+<h1 id="if-window-jquery">if (window.jQuery) {</h1>
+
+<h1 id="jquery-document-ready-function">jQuery(document).ready(function(){</h1>
+
+<h1 id="getlatestreleaseinfo">GetLatestReleaseInfo();</h1>
+
+<h1 id="toc_5">});</h1>
+
+<h1 id="else">} else {</h1>
+
+<h1 id="settimeout-function-defer-50">setTimeout(function() { defer() }, 50);</h1>
+
+<h1 id="toc_8">}</h1>
+
+<h1 id="toc_9">})();</h1>
+
+<h1 id="function-getlatestreleaseinfo">function GetLatestReleaseInfo() {</h1>
+
+<h1 id="getjson-https-api-github-com-repos-gcushen-hugo-academic-tags-done-function-json">$.getJSON(&lsquo;<a href="https://api.github.com/repos/gcushen/hugo-academic/tags').done(function" target="_blank">https://api.github.com/repos/gcushen/hugo-academic/tags').done(function</a> (json) {</h1>
+
+<h1 id="let-release-json-0">let release = json[0];</h1>
+
+<h1 id="let-downloadurl-release-zipball-url">// let downloadURL = release.zipball_url;</h1>
+
+<h1 id="academic-release-text-latest-release-release-name">$(&lsquo;#academic-release&rsquo;).text(&lsquo;Latest release &rsquo; + release.name);</h1>
+
+<h1 id="toc_15">});</h1>
+
+<h1 id="toc_16">}</h1>
+
+<h1 id="script"></script></h1>
 </p>
     
 
-    
-    <p><a href="./post/getting-started/" class="btn btn-light btn-outline btn-large"><i class="fa fa-download"></i> Install Now</a></p>
     
 
   </div>
@@ -323,8 +340,8 @@ url('/img/headers/lake.jpg');
     <div id="profile">
 
       
-      <div class="portrait" style="background-image: url('/img/portrait.jpg');"></div>
-      <meta itemprop="image" content="/img/portrait.jpg">
+      <div class="portrait" style="background-image: url('/img/profile.png');"></div>
+      <meta itemprop="image" content="/img/profile.png">
       
 
       <div class="portrait-title">
@@ -394,7 +411,7 @@ url('/img/headers/lake.jpg');
 
 <h2 id="alex-who">Alex, who?</h2>
 
-<p>I am an early-career researcher at the <a href="http://www.birmingham.ac.uk" target="_blank">University of Birmingham</a> under <a href="http://www.birmingham.ac.uk/staff/profiles/gees/kettridge-nick.aspx" target="_blank">Dr Nick Kettridge</a> and <a href="http://www.birmingham.ac.uk/staff/profiles/gees/krause-stefan.aspx" target="_blank">Prof Stefan Krause</a>. I mostly spend my days working toward the completion of my <strong>PhD</strong>, but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working in collaboratively is always a great joy!</p>
+<p>I am an early-career researcher at the <a href="http://www.birmingham.ac.uk" target="_blank">University of Birmingham</a> under <a href="http://www.birmingham.ac.uk/staff/profiles/gees/kettridge-nick.aspx" target="_blank">Dr Nick Kettridge</a> and <a href="http://www.birmingham.ac.uk/staff/profiles/gees/krause-stefan.aspx" target="_blank">Prof Stefan Krause</a>. I mostly spend my days working toward the completion of my <strong>PhD</strong>, but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working collaboratively is always a great joy!</p>
 
 <p>For a detailed CV click <strong>here</strong></p>
 
@@ -414,9 +431,11 @@ url('/img/headers/lake.jpg');
           
           <li>Plant-Water Interactions</li>
           
-          <li>Data Science</li>
+          <li>Data Science and Visualization</li>
           
           <li>Software Development</li>
+          
+          <li>Computational Ecology</li>
           
         </ul>
       </div>
@@ -494,7 +513,7 @@ url('/img/headers/lake.jpg');
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
-    Richard L Peters, Daniel Balanzategui, <strong>Alexander G Hurley</strong>, Georg von Arx, Angela Luisa Prendin, Henri E Cuny, Jesper Björklund, David C Frank, Patrick Fonti</span>
+    Richard L Peters, Daniel Balanzategui, <strong>Alexander Hurley</strong>, Georg von Arx, Angela Luisa Prendin, Henri E Cuny, Jesper Björklund, David C Frank, Patrick Fonti</span>
   (2018).
   <a href="/publication/2017-raptor/" itemprop="name">RAPTOR: Row and position tracheid organizer in R</a>.
   In <em>Dendrochronologia</em>.
@@ -530,6 +549,126 @@ url('/img/headers/lake.jpg');
 
       
     
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    <strong>Alexander Hurley</strong>, Nicholas Kettridge, Kevin Devito, Kelly Hokanson, Stefan Krause</span>
+  (2017).
+  <a href="/publication/2017-egu-wetland-concept/" itemprop="name">A concept of ephemeral wetlands as water-transmitting landscape units in Canada&#39;s Western Boreal Plain</a>.
+  In <em>EGU General Assembly Conference Abstracts</em>.
+  
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://meetingorganizer.copernicus.org/EGU2017/EGU2017-13113.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/phd-research/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    Samantha Probert, Nicholas Kettridge, Kevin Devito, <strong>Alexander Hurley</strong></span>
+  (2017).
+  <a href="/publication/2017-egu-et-hydrophobic/" itemprop="name">Ecohydrology of the wetland-forestland interface: hydrophobicity in leaf litter and its potential effect on surface evaporation</a>.
+  In <em>EGU General Assembly Conference Abstracts</em>.
+  
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://meetingorganizer.copernicus.org/EGU2017/EGU2017-8445.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/phd-research/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    <strong>Alexander Hurley</strong>, Nicholas Kettridge, Kevin Devito, Kelly Hokanson, Rhoswen Leonard, Stefan Krause, James Waddington</span>
+  (2017).
+  <a href="/publication/2017-egu-wetland-et/" itemprop="name">Spatio-temporal dynamics of evapotranspiration from forested, ephemeral wetlands</a>.
+  In <em>EGU General Assembly Conference Abstracts</em>.
+  
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://meetingorganizer.copernicus.org/EGU2017/EGU2017-13592.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/phd-research/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
 
   </div>
 </div>
@@ -553,6 +692,13 @@ url('/img/headers/lake.jpg');
     <h1>Recent &amp; Upcoming Talks</h1>
     
     
+    <p class="view-all">
+      <a href="/talk/">
+        More Talks
+        <i class="fa fa-angle-double-right"></i>
+      </a>
+    </p>
+    
   </div>
   <div class="col-xs-12 col-md-8">
     
@@ -561,17 +707,57 @@ url('/img/headers/lake.jpg');
       
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
   <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="/talk/example-talk/">Example Talk</a></span>
+  <span itemprop="name"><a href="/talk/2018-egu-wetland-forest/">Assessing the ecohydrological role of cryptic, forested wetlands in the Boreal Plain (Canada): Local-scale effects with a potential regional impact</a></span>
   <div itemprop="startDate">
     
-    Jun 1, 2030
+    Apr 16, 2018
     
-      13:00
+      11:00
     
   </div>
   <div class="talk-metadata">
     
-            Academic Theme Conference
+            EGU General Assembly 2018
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://meetingorganizer.copernicus.org/EGU2018/EGU2018-16349.pdf">
+  PDF
+</a>
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/phd-research/">
+  Project
+</a>
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/2018-egu-rhydro/">Using R in Hydrology (SC1.19/HS12.4)</a></span>
+  <div itemprop="startDate">
+    
+    Apr 11, 2018
+    
+      10:30
+    
+  </div>
+  <div class="talk-metadata">
+    
+            EGU General Assembly 2018
     
   </div>
   <div class="talk-links">
@@ -583,7 +769,51 @@ url('/img/headers/lake.jpg');
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="/project/deep-learning/">
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/hydrosoc/rhydro_EGU18">
+  View on GitHub
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://meetingorganizer.copernicus.org/EGU2018/session/28914">
+  View Short Course
+</a>
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/2017-egu-et-wetland/">Spatio-temporal dynamics of evapotranspiration from forested, ephemeral wetlands</a></span>
+  <div itemprop="startDate">
+    
+    Apr 11, 2017
+    
+      13:15
+    
+  </div>
+  <div class="talk-metadata">
+    
+            EGU General Assembly 2017
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://meetingorganizer.copernicus.org/EGU2017/EGU2017-13592.pdf">
+  PDF
+</a>
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/phd-research/">
   Project
 </a>
 
@@ -627,6 +857,194 @@ url('/img/headers/lake.jpg');
       
 
       
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+          
+      
+          
+      
+          
+      
+
+      
+      
+        
+        
+
+<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-02-26 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Feb 26, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Alexander Hurley">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/r">R</a
+    >, 
+    
+    <a href="/categories/data-science">Data Science</a
+    >, 
+    
+    <a href="/categories/hydrology">Hydrology</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+
+  
+  
+  <h3 class="article-title" itemprop="headline">
+    <a href="/2018/02/26/r-in-hydrology-short-course/" itemprop="url">R in Hydrology Short Course at EGU2018</a>
+  </h3>
+  <div class="article-style" itemprop="articleBody">
+    
+    <div id="what" class="section level2">
+<h2>What?</h2>
+</div>
+<div id="why" class="section level2">
+<h2>Why?</h2>
+</div>
+<div id="where" class="section level2">
+<h2>Where?</h2>
+</div>
+<div id="when" class="section level2">
+<h2>When?</h2>
+</div>
+
+    
+  </div>
+  <p class="read-more" itemprop="mainEntityOfPage">
+    <a href="/2018/02/26/r-in-hydrology-short-course/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+
+      
+
+        
+
+        
+        
+
+        
+        
+
+      
+      
+        
+        
+
+<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-02-25 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Feb 25, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Alexander Hurley">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/r">R</a
+    >, 
+    
+    <a href="/categories/blogging">blogging</a
+    >, 
+    
+    <a href="/categories/ecohydrology">ecohydrology</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+
+  
+  
+  <h3 class="article-title" itemprop="headline">
+    <a href="/2018/02/25/intro/" itemprop="url">First things first</a>
+  </h3>
+  <div class="article-style" itemprop="articleBody">
+    
+    Welcome! Happy to see you here. Blog posts on my website will hopefully not just be a brain dump reminding me of my ventures at some point in the future, but also spur your thoughts, help you solve a problem, or maybe get you interested in exchanging ideas. In any case, I&rsquo;m looking forward to creating some content on ecological and hydrological topics as well as some data science and visualization approaches.
+    
+  </div>
+  <p class="read-more" itemprop="mainEntityOfPage">
+    <a href="/2018/02/25/intro/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+
       
 
         
@@ -773,9 +1191,9 @@ url('/img/headers/lake.jpg');
   </h3>
   <div class="article-style" itemprop="articleBody">
     
-    R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+    trueR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
@@ -816,27 +1234,7 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
     
     
-    <span class="hidden default-project-filter">*</span>
-    
 
-    
-    
-    <div class="project-toolbar">
-      <div class="project-filters">
-        <div class="btn-toolbar">
-          <div class="btn-group">
-            
-              <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
-            
-              <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-large">Deep Learning</a>
-            
-              <a href="#" data-filter=".demo" class="btn btn-primary btn-large">Other</a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    
     
 
     
@@ -847,18 +1245,18 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item R open-source data science">
         <div class="card">
           
-          <a href="/project/deep-learning/" title="" class="card-image hover-overlay"
+          <a href="/project/software/" title="" class="card-image hover-overlay"
              >
-            <img src="/img/bubbles.jpg" alt="" class="img-responsive">
+            <img src="/img/headers/projects/model_small.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/project/deep-learning/" >Deep Learning</a></h4>
+            <h4><a href="/project/software/" >Open source software development</a></h4>
             <div class="card-desription">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>R packages and data products for academic and general application</p>
             </div>
           </div>
         </div>
@@ -867,21 +1265,18 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       
       
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item demo">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item ecohydrology research wetlands evapotranspiration dendroecology">
         <div class="card">
           
-          <a href="http://example.org" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/img/boards.jpg" alt="" class="img-responsive">
+          <a href="/project/phd-research/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/headers/projects/wetlands.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="http://example.org" target="_blank">External Project</a></h4>
+            <h4><a href="/project/phd-research/" >Ecohydrological functioning of shallow Boreal Plain wetlands (PhD)</a></h4>
             <div class="card-desription">
-              <p>An example of linking directly to an external project website using <code>external_link</code>.</p>
+              <p>Water cycling, plant-atmosphere and wetland-forest interactions.</p>
             </div>
           </div>
         </div>
@@ -969,7 +1364,28 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
           
           
           
+          <a href="/tags/egu" style="font-size:0.8rem">EGU</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/r" style="font-size:1.8725805810714777rem">R</a>
+        
+          
+          
+          
+          
+          
           <a href="/tags/r-markdown" style="font-size:0.8rem">R Markdown</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/young-hydrologist-society" style="font-size:0.8rem">Young Hydrologist Society</a>
         
           
           
@@ -983,14 +1399,42 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
           
           
           
-          <a href="/tags/deep-learning" style="font-size:0.8rem">deep-learning</a>
+          <a href="/tags/data-science" style="font-size:0.8rem">data science</a>
         
           
           
           
           
           
-          <a href="/tags/demo" style="font-size:0.8rem">demo</a>
+          <a href="/tags/dendroecology" style="font-size:0.8rem">dendroecology</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/ecohydrology" style="font-size:0.8rem">ecohydrology</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/evapotranspiration" style="font-size:0.8rem">evapotranspiration</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/hydrology" style="font-size:0.8rem">hydrology</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/open-source" style="font-size:0.8rem">open-source</a>
         
           
           
@@ -1005,6 +1449,20 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
           
           
           <a href="/tags/regression" style="font-size:0.8rem">regression</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/research" style="font-size:0.8rem">research</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/wetlands" style="font-size:0.8rem">wetlands</a>
         
       </div>
     

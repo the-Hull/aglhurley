@@ -1,0 +1,23 @@
+---
+title: R in Hydrology Short Course at EGU2018
+author: Alex
+date: '2018-02-26'
+slug: r-in-hydrology-short-course
+categories:
+  - R
+  - Data Science
+  - Hydrology
+tags:
+  - hydrology
+  - Young Hydrologist Society
+  - EGU
+  - R
+---
+
+## What?
+
+## Why?
+
+## Where?
+
+## When?

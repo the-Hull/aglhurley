@@ -11,6 +11,166 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>R in Hydrology Short Course at EGU2018</title>
+      <link>/2018/02/26/r-in-hydrology-short-course/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/26/r-in-hydrology-short-course/</guid>
+      <description>&lt;div id=&#34;what&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What?&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;why&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Why?&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;where&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Where?&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;when&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;When?&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessing the ecohydrological role of cryptic, forested wetlands in the Boreal Plain (Canada): Local-scale effects with a potential regional impact</title>
+      <link>/talk/2018-egu-wetland-forest/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/talk/2018-egu-wetland-forest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R in Hydrology (SC1.19/HS12.4)</title>
+      <link>/talk/2018-egu-rhydro/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/talk/2018-egu-rhydro/</guid>
+      <description>&lt;p&gt;Join us for a great short course demonstrating latest approaches, methods and workflows in hydrology and data analyses related to R. See below for the course&amp;rsquo;s description.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Wondering why or how to use R in hydrology? You’re in the right place! In this short course, you will learn how R is applied in a range of hydrological research settings from a number of guest lecturers.&lt;/p&gt;
+
+&lt;p&gt;Topics for 2018 include:
+- Recent R updates and packages
+- Accessing hydrological data using web APIs, with a demo of the rnrfa package
+- Reading and visualising large-scale gridded data (netCDF)
+- Processing, modelling and visualising hydrological data in R (tidyverse)
+- Hydrological modelling (airGR) and teaching modelling (airGRteaching)
+- An introduction to the smires and lfstat (low flow statistics) packages&lt;/p&gt;
+
+&lt;p&gt;This session is aimed at researchers who are interested in hearing more about R as well as those who are advanced R programmers wanting to discuss recent developments in an open environment.&lt;/p&gt;
+
+&lt;p&gt;This session is organised in cooperation with the Young Hydrologic Society (YHS; &lt;a href=&#34;https://younghs.com/&#34; target=&#34;_blank&#34;&gt;https://younghs.com/&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First things first</title>
+      <link>/2018/02/25/intro/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/25/intro/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome&#34;&gt;Welcome!&lt;/h1&gt;
+
+&lt;p&gt;Happy to see you here. Blog posts on my website will hopefully not just be a brain dump reminding me of my ventures at some point in the future, but also spur your thoughts, help you solve a problem, or maybe get you interested in exchanging ideas. In any case, I&amp;rsquo;m looking forward to creating some content on ecological and hydrological topics as well as some data science and visualization approaches.&lt;/p&gt;
+
+&lt;p&gt;So long and watch this space.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alumnus Experience</title>
+      <link>/talk/imae-alumnus/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/talk/imae-alumnus/</guid>
+      <description>&lt;p&gt;Being selected for a spot on the Erasmus Mundus Master&amp;rsquo;s Course &amp;ldquo;International Master&amp;rsquo;s in Applied Ecology&amp;rdquo; in 2013 was a great privilege and provided once-in-a-lifetime experiences and outstanding education. It was a great honor to be invited back to the graduation ceremony in 2016, one year after I completed the program, to share these experiences - as well as some insight on the path I chose after - to graduating and newly enrolling students during the &lt;em&gt;Farewell Congress&lt;/em&gt; in Poitiers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spatio-temporal dynamics of evapotranspiration from forested, ephemeral wetlands</title>
+      <link>/talk/2017-egu-et-wetland/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/talk/2017-egu-et-wetland/</guid>
+      <description>&lt;p&gt;This presentation featured work on partitioning atmospheric water fluxes from the subcanopy of a forested wetland in the Boreal Plain and discussed initial results on processes in the plant-soil continuum that reduce water losses under dry conditions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open source software development</title>
+      <link>/project/software/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/software/</guid>
+      <description>
+
+&lt;p&gt;Research is generally highly domain and application specific and therefore often requires unique and tailored data analyses approaches. While specialized, many approaches are well established within scientific communities, yet are applied on a variety of platforms in a non-standardized manner. By developing and distributing well-documented, open-source software, such analyses can become more accessible, aiding in advancing science toward more reproducibility.&lt;/p&gt;
+
+&lt;p&gt;My software is written in &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;R (for statistical computing)&lt;/a&gt; and freely available via my &lt;a href=&#34;www.github.com/the-Hull&#34; target=&#34;_blank&#34;&gt;GitHub repositories&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;current-projects&#34;&gt;Current Projects&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;small&gt; &lt;strong&gt;RAPTOR&lt;/strong&gt; (Row And Tracheid Organizer in R): This packages performs wood cell anatomical data analyses on spatially explicit xylem (tracheids) datasets derived from wood anatomical thin sections. The package includes functions for the visualisation, alignment and detection of continuous tracheid radial file (defines as rows) and tracheid position within an annual ring of coniferous species. (Note: &lt;a href=&#34;http://www.wsl.ch/info/mitarbeitende/peters/index_EN&#34; target=&#34;_blank&#34;&gt;Richard L. Peters&lt;/a&gt; is the project-lead and behind the fascinating mathematics; my duties are ensuring that the package met criteria for submission to software archives by adjusting code, efficiency and structure). &lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;data-science-products-a-name-data-science-a&#34;&gt;Data science products &lt;a name = &#34;data-science&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Science is extremely fun (I hope you agree), yet only useful (beyond being stimulating) if results are communicated to audiences appropriately. One highly accessible way of achieving this are well-crafted, interactive data science products that allow exploring a given inference (e.g. mechanism or concept) with supporting data. I use a variety of tools based around &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;R (for statistical computing)&lt;/a&gt; and associated packages.&lt;/p&gt;
+
+&lt;h3 id=&#34;current-projects-1&#34;&gt;Current Projects&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;small&gt; Online public outreach and data exploration platform for the &lt;a href=&#34;http://www.birmingham.ac.uk/research/activity/bifor/index.aspx&#34; target=&#34;_blank&#34;&gt;Birmingham Institute of Forest Research (BIFoR)&lt;/a&gt;. An early version is available &lt;a href=&#34;https://aglhurley.shinyapps.io/bifor&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.  &lt;em&gt;In development&lt;/em&gt;. &lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ecohydrological functioning of shallow Boreal Plain wetlands (PhD)</title>
+      <link>/project/phd-research/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/phd-research/</guid>
+      <description>
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;My research focuses on the interplay of hydrology and ecology of shallow, ephemeral wetlands in the Boreal Plain (Alberta, Canada). In particular, I am delineating processes that allow surplus water generation in a sub-humid environment, linking plant community dynamics and vegetation structure with water movement at multiple scales (i.e. leaf to catchment). With this research I hope to inform the reclamation of mine closure sites in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Athabasca_oil_sands&#34; target=&#34;_blank&#34;&gt;Athabasca Oil Sands Region&lt;/a&gt;, where the reconstruction of ecosystems often requires estimating delicate water balances to meet future, often conflicting goals (e.g. preventing mass movement/slope failures vs. generating surface runoff vs. groundwater recharge).&lt;/p&gt;
+
+&lt;p&gt;This research is part of a highly collaborative and inter-disciplinary project led by multiple universities based in the UK (University of Birmingham) and Canada (Universities of &lt;a href=&#34;https://devitogroup.squarespace.com/&#34; target=&#34;_blank&#34;&gt;Alberta&lt;/a&gt;, &lt;a href=&#34;http://ecohydrology.mcmaster.ca/&#34; target=&#34;_blank&#34;&gt;McMaster&lt;/a&gt; and &lt;a href=&#34;http://env-blogs.uwaterloo.ca/rpetrone/&#34; target=&#34;_blank&#34;&gt;Waterloo&lt;/a&gt;), as well as multiple partners from industry and NGOs.&lt;/p&gt;
+
+&lt;h2 id=&#34;main-objectives&#34;&gt;Main objectives&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Identify water redistributing mechanisms (e.g. via runoff, hydraulic redistribution, flow reversals) by establishing water balance for an exemplary, ephemeral wetland; given the sub-humid climate and low runoff ratios, atmospheric fluxes and changes in storage in relation to seasonal dynamics are the main focus.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Assess impact of water redistribution on productivity of downstream and adjacent ecosystems; this is mainly achieved through proxies of plant water use (e.g. sap flow) and tree productivity and their variable expression throughout climate cycles.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Develop concept of shallow (ephemeral) wetlands and highlight main processes that can be applied for land reclamation operations in the Athabasca Oil Sands to meet water balance demands across scales (i.e. for maintaining individual landscape units or generating runoff at larger scales for endpit lakes).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- #### Recent outputs and publications
+
+
+- &lt;small&gt; **Hurley, A.**, Kettridge, N., Devito, K., Hokanson, K. and Krause, S., 2017, April. A concept of ephemeral wetlands as water-transmitting landscape units in Canada&#39;s Western Boreal Plain. In *EGU General Assembly Conference Abstracts* (Vol. 19, p. 13113). &lt;/small&gt;
+
+- &lt;small&gt; **Hurley, A.,** Kettridge, N., Devito, K., Hokanson, K., Leonard, R., Krause, S. and Waddington, J.M., 2017, April. Spatio-temporal dynamics of evapotranspiration from forested, ephemeral wetlands and its implication for hydrologic connectivity in the Western Boreal Plain in Alberta, Canada. In *EGU General Assembly Conference Abstracts* (Vol. 19, p. 13592). &lt;/small&gt;
+
+- &lt;small&gt; Probert, S., Kettridge, N., Devito, K. and **Hurley, A.**, 2017, April. Ecohydrology of the wetland-forestland interface: hydrophobicity in leaf litter and its potential effect on surface evaporation. In *EGU General Assembly Conference Abstracts* (Vol. 19, p. 8445).
+&lt;/small&gt;
+
+--&gt;
+</description>
+    </item>
+    
+    <item>
       <title>RAPTOR: Row and position tracheid organizer in R</title>
       <link>/publication/2017-raptor/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
@@ -20,39 +180,29 @@
     </item>
     
     <item>
-      <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
+      <title>A concept of ephemeral wetlands as water-transmitting landscape units in Canada&#39;s Western Boreal Plain</title>
+      <link>/publication/2017-egu-wetland-concept/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>/publication/2017-egu-wetland-concept/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Ecohydrology of the wetland-forestland interface: hydrophobicity in leaf litter and its potential effect on surface evaporation</title>
+      <link>/publication/2017-egu-et-hydrophobic/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
+      <guid>/publication/2017-egu-et-hydrophobic/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Spatio-temporal dynamics of evapotranspiration from forested, ephemeral wetlands</title>
+      <link>/publication/2017-egu-wetland-et/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/example-external-project/</guid>
+      <guid>/publication/2017-egu-wetland-et/</guid>
       <description></description>
     </item>
     
@@ -250,7 +400,11 @@ git submodule update --init --recursive
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+      <description>&lt;div id=&#34;TOC&#34;&gt;
+true
+&lt;/div&gt;
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;R Markdown&lt;/h1&gt;
 &lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;

@@ -5,6 +5,78 @@
     
     <url>
     
+      <loc>/2018/02/26/r-in-hydrology-short-course/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/2018-egu-wetland-forest/</loc>
+      <lastmod>2018-02-25T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/2018-egu-rhydro/</loc>
+      <lastmod>2018-02-25T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/02/25/intro/</loc>
+      <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/imae-alumnus/</loc>
+      <lastmod>2018-02-23T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/2017-egu-et-wetland/</loc>
+      <lastmod>2018-02-23T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/software/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/phd-research/</loc>
+      <lastmod>2018-02-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/2017-raptor/</loc>
       <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     </url>
@@ -14,8 +86,26 @@
     
     <url>
     
-      <loc>/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
+      <loc>/publication/2017-egu-wetland-concept/</loc>
+      <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2017-egu-et-hydrophobic/</loc>
+      <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2017-egu-wetland-et/</loc>
+      <lastmod>2017-04-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -59,24 +149,6 @@
     
     <url>
     
-      <loc>/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/2016/04/20/academic-the-website-designer-for-hugo/</loc>
       <lastmod>2018-01-13T00:00:00-07:00</lastmod>
     </url>
@@ -88,6 +160,16 @@
     
       <loc>/2015/07/23/hello-r-markdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/1/</loc>
+      <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -115,7 +197,18 @@
     
     <url>
     
+      <loc>/categories/blogging/</loc>
+      <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/</loc>
+      <lastmod>2018-02-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -124,8 +217,8 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>/categories/data-science/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -134,8 +227,88 @@
     
     <url>
     
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>/tags/data-science/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/dendroecology/</loc>
+      <lastmod>2018-02-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/egu/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/ecohydrology/</loc>
+      <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/ecohydrology/</loc>
+      <lastmod>2018-02-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/evapotranspiration/</loc>
+      <lastmod>2018-02-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/hydrology/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/hydrology/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/open-source/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -155,7 +328,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -165,7 +338,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-04-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -175,7 +348,17 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -204,8 +387,38 @@
     
     <url>
     
+      <loc>/tags/research/</loc>
+      <lastmod>2018-02-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/wetlands/</loc>
+      <lastmod>2018-02-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/young-hydrologist-society/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

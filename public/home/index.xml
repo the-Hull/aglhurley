@@ -18,8 +18,8 @@
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0600</pubDate>
       
       <guid>/home/hero/</guid>
-      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release  
-(function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name); }); }  </description>
+      <description> 
+ (function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&amp;lsquo;#academic-release&amp;rsquo;).text(&amp;lsquo;Latest release &amp;rsquo; + release.name); }); }  </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography Alex, who? I am an early-career researcher at the University of Birmingham under Dr Nick Kettridge and Prof Stefan Krause. I mostly spend my days working toward the completion of my PhD, but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working in collaboratively is always a great joy!</description>
+      <description>Biography Alex, who? I am an early-career researcher at the University of Birmingham under Dr Nick Kettridge and Prof Stefan Krause. I mostly spend my days working toward the completion of my PhD, but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working collaboratively is always a great joy!</description>
     </item>
     
     <item>

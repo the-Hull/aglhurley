@@ -33,12 +33,12 @@ filter_default = 0
 #   tag = "*"
 # 
 # [[filter]]
-#   name = "Deep Learning"
-#   tag = ".deep-learning"
+#   name = "Research"
+#   tag = ".research"
 # 
 # [[filter]]
-#   name = "Other"
-#   tag = ".demo"
+#   name = "Ecohydrology"
+#   tag = ".ecohydrology"
 
 +++
 
