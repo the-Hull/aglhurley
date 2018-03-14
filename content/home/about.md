@@ -38,15 +38,15 @@ weight = 5
 
 ## Alex, who?
 
-I am an early-career researcher at the [University of Birmingham](http://www.birmingham.ac.uk) under [Dr Nick Kettridge](http://www.birmingham.ac.uk/staff/profiles/gees/kettridge-nick.aspx) and [Prof Stefan Krause](http://www.birmingham.ac.uk/staff/profiles/gees/krause-stefan.aspx). I mostly spend my days working toward the completion of my **PhD**, but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working collaboratively is always a great joy!
+I am an early-career researcher at the [University of Birmingham](http://www.birmingham.ac.uk) under [Dr Nick Kettridge](http://www.birmingham.ac.uk/staff/profiles/gees/kettridge-nick.aspx) and [Prof Stefan Krause](http://www.birmingham.ac.uk/staff/profiles/gees/krause-stefan.aspx). I mostly spend my days working toward the completion of my [PhD]({{< ref "project/phd-research.md" >}}), but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working collaboratively is always a great joy!
 
-For a detailed CV click **here**
+<!--- For a detailed CV click **here** --->
 
 
 ## Science, what?
 
-Science, I believe somewhat romantically and idealistically, is a truly altruistic endeavor, where we strive to  understand what's around us - for the benefit of our (and hopefully fellow) species. Sharing and communicating new insights is therefore vital. Base that on collaborative, reproducible and transparent research conduct, and that's what I want to be part of.
+Science, I believe (romantically and idealistically?), is an altruistic endeavor, where we try tunderstands our surroundings - for the benefit of our (and hopefully fellow) species. Sharing and communicating new insights is therefore vital. Base that on collaborative, reproducible and transparent research conduct, and that's what I want to be part of.
 
-In the future, I wish to be engaged in innovative, collaborative and inter-disciplinary research in the fields of ecohydrology and applied ecology, ultimately allowing evidence-based decision-making. 
+In the future, I hope to be involved in innovative, collaborative and inter-disciplinary research in ecohydrology and applied ecology, enabling evidence-based decision-making. 
 
 

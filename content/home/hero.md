@@ -4,10 +4,10 @@ widget = "hero"
 active = true
 date = 2017-10-15
 
-title = "Plants, water and some data science"
+title = "Plants, water and data. "
 
 # Order that this section will appear in.
-weight = 3
+weight = 1
 
 # Overlay a color or image (optional).
 #   Deactivate an option by commenting out the line, prefixing it with `#`.
@@ -19,19 +19,25 @@ weight = 3
 # Call to action button (optional).
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
-# [cta]
-  # url = "./post/getting-started/"
-  # label = '<i class="fa fa-message"></i> Get in touch'
+[cta]
+  url = "./#contact"
+  label = '<i class="fa fa-message"></i> Contact me! '
 +++
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br>
+<font color="white">
+<large>Personal website with updates and infos. <br> Also a place for thoughts and ideas. 
+</large>
+<br><br>
+<small>
+</font>
+<i>
+Please get in touch to share any of yours or comment on mine.
+</i>
+</small>
+
+
+
 
 # <script type="text/javascript">
 #   (function defer() {
