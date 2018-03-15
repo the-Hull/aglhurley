@@ -3,7 +3,7 @@
 date = "2018-02-22"
 
 # Project title.
-title = "Ecohydrological functioning of shallow Boreal Plain wetlands (PhD)"
+title = "Ecohydrological functioning of wooded Boreal Plain wetlands (PhD)"
 
 # Project summary to display on homepage.
 summary = "Water cycling, plant-atmosphere and wetland-forest interactions."
