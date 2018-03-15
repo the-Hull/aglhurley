@@ -14,12 +14,13 @@ tags:
   - R
 header:
   image: "headers/projects/wl2.jpg"
+  caption: "&copy; A. Hurley"
 summary: "Something you can't miss. Come and See!"
 ---
 
 ## What?
 
-In this session you have the opportunity to see some great people and myself showcase the power of `R` in hydrology - that is, recent packages, models and approaches. Recent developments around the `R` user and developer base (e.g. **R-Ladies**) will also be discussed. This is the second installment of the short course (started by [Berry Boessenkool](https://github.com/brry)), which we hope will turn into a longer running series at the EGU AGMs.
+In this session [check out the details here](/talk/2018-egu-rhydro) you have the opportunity to see some great people and myself showcase the power of `R` in hydrology - that is, recent packages, models and approaches. Recent developments around the `R` user and developer base (e.g. **R-Ladies**) will also be discussed. This is the second installment of the short course (started by [Berry Boessenkool](https://github.com/brry)), which we hope will turn into a longer running series at the EGU AGMs.
 
 
 ## Why?

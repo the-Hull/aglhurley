@@ -50,6 +50,7 @@ Join us for a great short course demonstrating latest approaches, methods and wo
 Wondering why or how to use R in hydrology? You’re in the right place! In this short course, you will learn how R is applied in a range of hydrological research settings from a number of guest lecturers. 
 
 Topics for 2018 include:
+
 - Recent R updates and packages 
 - Accessing hydrological data using web APIs, with a demo of the rnrfa package 
 - Reading and visualising large-scale gridded data (netCDF)
