@@ -38,7 +38,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/projects/wl.jpg"
+image = "headers/projects/wl2.jpg"
 caption = "&copy; A. Hurley"
 
 +++
@@ -59,4 +59,4 @@ Topics for 2018 include:
 
 This session is aimed at researchers who are interested in hearing more about R as well as those who are advanced R programmers wanting to discuss recent developments in an open environment. 
 
-This session is organised in cooperation with the Young Hydrologic Society (YHS; https://younghs.com/)
+This session is organised in cooperation with the [Young Hydrologic Society](https://younghs.com/).

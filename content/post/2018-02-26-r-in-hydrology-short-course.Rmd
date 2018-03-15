@@ -12,12 +12,37 @@ tags:
   - Young Hydrologist Society
   - EGU
   - R
+header:
+  image: "headers/projects/wl2.jpg"
+summary: "Something you can't miss. Come and See!"
 ---
 
 ## What?
 
+In this session you have the opportunity to see some great people and myself showcase the power of `R` in hydrology - that is, recent packages, models and approaches. Recent developments around the `R` user and developer base (e.g. **R-Ladies**) will also be discussed. This is the second installment of the short course (started by [Berry Boessenkool](https://github.com/brry)), which we hope will turn into a longer running series at the EGU AGMs.
+
+
 ## Why?
 
-## Where?
+`R` is an exceptionally useful programming language for data science, modelling and producing (interactive) content. It's increasingly growing in popularity - from both employee and employer perspective (see [this infographic](http://blog.datacamp.com/wp-content/uploads/2015/05/R-vs-Python-216-2.png)) - due to its flexibility and open source nature. Academia has caught on, and `R` is now becoming more and more part of our day-to-day work*flows*. In short: don't miss out on 1.5 hours of **hydrology** and `R` fun!
 
-## When?
+## When and where?
+
+On Wednesday, 11 April. From **10:30** to **12:00** in **Room -2.16**.
+
+{{% alert note %}}
+Note the minus in the room number **-2.16**. Don't go looking for us up on the second floor - we love basements!
+{{% /alert %}}
+
+## Who?
+
+(Co-)Conveners are: 
+
+- Louise Slater (lead)
+- Shaun Harrigan
+- Tobias Gauster
+- Alexander Hurley
+- Guillaume Thirel
+- Claudia Vitolo
+
+See you there!

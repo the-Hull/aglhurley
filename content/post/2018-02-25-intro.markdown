@@ -8,6 +8,9 @@ categories:
   - blogging
   - ecohydrology
 tags: []
+summary: "Well, hello there.."
+header:
+  image: "headers/projects/wl2.jpg"
 ---
 
 # Welcome!

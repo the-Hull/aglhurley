@@ -6,7 +6,7 @@
 baseurl = "/"
 
 # Title of your site
-title = "A. Hurley"
+title = "Alexander Hurley"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -58,10 +58,10 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "University of Birmingham", url = "" } ]
+  organizations = [ { name = "University of Birmingham", url = "www.birmingham.ac.uk" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "profile.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "prof3.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "agl.hurley@gmail.com"
   address = ""
   office_hours = ""
@@ -264,8 +264,8 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Talks & Workshops"
+  url = "#talks"
   weight = 4
 
 [[menu.main]]
@@ -273,15 +273,15 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 3
 
-# [[menu.main]]
-#  name = "Teaching"
-#  url = "#teaching"
-#  weight = 5
 
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 5
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
+  weight = 6
 
 # Taxonomies.
 [taxonomies]
