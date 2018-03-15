@@ -34,8 +34,8 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/projects/wl.jpg"
-caption = "&copy; A. Hurley"
+#image = "headers/projects/wl2.jpg"
+#caption = "&copy; A. Hurley"
 
 +++
 
