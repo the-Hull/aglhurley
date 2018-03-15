@@ -2,8 +2,8 @@
 date = 2018-02-23T00:00:00  # Schedule page publish date.
 
 title = "Spatio-temporal dynamics of evapotranspiration from forested, ephemeral wetlands"
-time_start = 2017-04-11T13:15:00
-time_end = 2017-04-11T13:30:00
+time_start = 2017-04-28T15:30:00
+time_end = 2017-04-28T15:45:00
 abstract = ""
 abstract_short = ""
 event = "EGU General Assembly 2017"
