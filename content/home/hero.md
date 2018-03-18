@@ -21,7 +21,7 @@ weight = 1
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
   url = "./#contact"
-  label = '<i class="fa fa-message"></i> Contact me! '
+  label = '<i class="fa fa-message"></i> Contact me'
 +++
 
 <br><br><br><br>
