@@ -47,6 +47,6 @@ I am a PhD student at the [University of Birmingham](http://www.birmingham.ac.uk
 
 This is how I see it: science is an altruistic endeavor, where we try to understand our surroundings - (to satisfy curiousity as well as) for the benefit of our and hopefully fellow species. Sharing new insights is therefore vital. Base that on collaborative, reproducible and transparent research, and that's what I want to be part of. In short: nature is beautiful - and a privilege to study with passionate colleagues :smile:.
 
-In the future, I hope to be get involved in innovative, collaborative and inter-disciplinary research in ecohydrology and applied ecology, enabling evidence-based decision-making. Fingers crossed!
+In the future, I hope to get involved in innovative, collaborative and inter-disciplinary research in ecohydrology and applied ecology, enabling evidence-based decision-making. Fingers crossed!
 
 
