@@ -68,7 +68,7 @@ Using (peak flow) data from the UK [National River Flow Archive](http://nrfa.ceh
 <br>
 
 <center>
-![ [Data analysis pipeline (taken from R4DS by H. Wickham)](http://r4ds.had.co.nz/introduction.html#what-you-will-learn) ]((../img/tidy.png)
+![ [Data analysis pipeline (taken from R4DS by H. Wickham)](http://r4ds.had.co.nz/introduction.html#what-you-will-learn) ](../img/tidy.png)
 
 </center>
 <br>
