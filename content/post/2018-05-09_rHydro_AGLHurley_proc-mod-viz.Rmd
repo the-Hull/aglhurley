@@ -23,4 +23,7 @@ Test test
 
 
 
+[test static](ext_rmd/egu_rhydro_sc/01_rHydro_AGLHurley_proc-mod-viz.html)
+
+
 [test static](files/ext_rmd/egu_rhydro_sc/01_rHydro_AGLHurley_proc-mod-viz.html)
