@@ -15,10 +15,9 @@ blogdown
 public/
 
 
-static/files/ext_rmd/egu_rhydro_sc/presentation/01_rHydro_AGLHurley_proc-mod-viz_cache
 
-.*/figure-html/
 
 static/files/ext_rmd/egu_rhydro_sc/presentation/01_rHydro_AGLHurley_proc-mod-viz_files
 
-*.html
+static/files/ext_rmd/egu_rhydro_sc/presentation/01_rHydro_AGLHurley_proc-mod-viz_cache
+
