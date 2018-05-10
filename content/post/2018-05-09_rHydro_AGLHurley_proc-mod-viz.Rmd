@@ -1,5 +1,5 @@
 ---
-title: R in Hydrology Short Course at EGU2018
+title: 'Update: R in Hydrology Short Course at EGU2018'
 author: Alex
 date: '2018-05-09'
 slug: r-in-hydrology-short-course-dc
@@ -15,15 +15,21 @@ tags:
 header:
   image: "headers/projects/wl2.jpg"
   caption: "&copy; A. Hurley"
-summary: "Director's cut of my R in Hydrology SC contribution @EGU2018"
+summary: "Director's cut of my SC contribution @EGU2018"
 ---
 
-Test test
+EGU2018 was immensely fun and stimulating, and the short course was a great success (especially working with the convener team and receiving immediate feedback)! 
 
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '986595065454882816')
+```
 
+Due to our time constraints and the many facets of `R`, I had to cut down on my content delivery for the actual presentation. But fear not! 
 
+[**The entire tutorial document is right here.**](/files/ext_rmd/egu_rhydro_sc/presentation/01_rHydro_AGLHurley_proc-mod-viz).
 
-[test static](/ext_rmd/egu_rhydro_sc/01_rHydro_AGLHurley_proc-mod-viz)
+You can find the raw document [here](https://github.com/the-Hull/aglhurley/blob/master/static/files/ext_rmd/egu_rhydro_sc/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd).
 
+As always, feel free to contact me with any questions, advice or feedback.
 
-[test static](/files/ext_rmd/egu_rhydro_sc/01_rHydro_AGLHurley_proc-mod-viz)
+See you next time, at EGU2019!
