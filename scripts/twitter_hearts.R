@@ -7,10 +7,14 @@ library(DT)
 appname <- "rtweet_hearts"
 
 ## api key (example below is not a real key)
-key <- "oD1faBqceJ9P5rW12dInv8ylt"
+key <- "ovHeqLuGXavllltcstksDgfo0"
+key <- "909181566282354688-ZTw58yhE8r2bnXALDQDce9ly1PiqjGh"
+
+
 
 ## api secret (example below is not a real key)
-secret <- "VlA3f2UzIzqVl85eGWIfzZpbfmGGpwytlw5Zj9U5IO1i4Voemq"
+secret <- "PIOqtvNhcsIvUVoqPusFCDjN0gj9yyx55oDXug11wXorYVqBka"
+secret <- "KCV2iacs0VGZmqni7TZ52QakelXC2b5h8hGKux2vxm2mj"
 
 ## create token named "twitter_token"
 twitter_token <- create_token(

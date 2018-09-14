@@ -1,4 +1,4 @@
-blogdown::build_dir('static')
+# blogdown::build_dir('static')S
 
 
 # # set common options ofr knitr

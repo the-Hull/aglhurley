@@ -20,9 +20,12 @@ summary: "Director's cut of my SC contribution"
 
 What a fun week at EGU2018 that was. Unfortunately, due to our time constraints and the many facets of `R`, I had to cut down on my content delivery for the actual presentation. But fear not: 
 
-[**the entire tutorial (director's cut) is right here,**](/files/ext_rmd/egu_rhydro_sc/presentation/01_rHydro_AGLHurley_proc-mod-viz) and you can find the raw document [here](https://github.com/the-Hull/aglhurley/blob/master/static/files/ext_rmd/egu_rhydro_sc/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd).
+[**the entire tutorial (director's cut) is right here,**](/ext_post/01_rHydro_AGLHurley_proc-mod-viz.html) and you can find the raw document [here](https://github.com/the-Hull/aglhurley/blob/master/static/files/ext_rmd/egu_rhydro_sc/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd).
 
-#rstats topics that are covered include:
+
+
+
+# \#rstats topics that are covered include:
 
 - intro to the #tidyverse (piping, mapping, nesting)
 - data handling
