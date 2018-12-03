@@ -1,0 +1,486 @@
+---
+title: 'Of loggers, sensors and consistent data: a tidy approach to EM50 data'
+author: Alex
+date: '2018-11-24'
+slug: tidy-em50
+categories:
+  - R
+  - ecohydrology
+  - Data Science
+tags:
+  - R
+  - tidyverse
+  - decagon
+  - em50
+header:
+  image: "headers/projects/wl2-em50.jpg"
+  caption: "&copy; A. Hurley"
+summary: "See a 'universal' read_em50() function in action."
+---
+
+
+
+<div id="automated-data-collection-is-fantastic-but.." class="section level2">
+<h2>Automated data collection is fantastic, but..</h2>
+<p>Field-based research can be incredibly fun and rewarding - yet in many cases logistical challenges take the front seat when I think about my next outdoor stint. These challenges include site access, health and safety and training up personell as well as myself. But, first and foremost, I think about the data that I’ll be bringing back with me.</p>
+<p>Ideally, I want to streamline and automate as much of the data collection and processing as possible, saving myself time, while ensuring reproducibility (added bonus! 😄). In an ideal world, all pertinent data would be collected by a set of loggers with a consistent output format, all resulting data files named applying a machine-readable scheme, and reading as well as processing the data could be automated (to a large extent).</p>
+<p>But, alas, if you’ve done any type of field research, it’s likely you know that is often not the case. My latest encounter with such “troublesome” data presented an interesting challenge in terms of getting data into an analyses-ready format:</p>
+<p>A set of Decagon EM50 loggers recorded soil moisture, soil tension and electrical conductivity in multiple locations, at various depths. I was getting tired of developing schemes/functions for each location, and decided to brainstorm for a ‘universal’ <code>read_em50()</code>! As so often recently, I thought: “<code>tidyverse</code> to the rescue!”</p>
+</div>
+<div id="em50s-and-sensor-types" class="section level2">
+<h2>EM50’s and sensor types</h2>
+<p>Decagon EM50 loggers can handle various sensor types in each port - a great advantage <em>per-se</em>. The output (i.e. table dimensions) depend on the sensors in operation and which variables they record. The examples below show that <em>5TE</em> sensors provide three types of measurements, <em>MPS-2</em> records two, and the <em>GS1</em> provides one, for each connected port:</p>
+<div class="figure">
+<img src="/post/2018-11-24-tidy-em50_files/img/em50_3cols.png" />
+
+</div>
+<div class="figure">
+<img src="/post/2018-11-24-tidy-em50_files/img/em50_2cols.png" />
+
+</div>
+</div>
+<div id="the-tidyverse-approach" class="section level2">
+<h2>The <code>tidy(verse)</code> approach</h2>
+<p>My goal was to produce a “tidy” data set in long format, that can easily be queried - the three lines of meta data preceding the actual measurements are ideal for that, yet reading in the file in one go results in type issues (i.e. character vs. numeric). The real problem was that streamlining the read-in requires accounting for different set-ups (i.e. sensor types) at each location. After brainstorming a while, I came up with an approach that leveraged <code>tidyr::gather()</code>, <code>tidyr::nest()</code> and <code>purrr::map()</code> (a lot of the latter, in fact).</p>
+<p>Briefly, in pseudo-code, the <code>read_em50()</code> function does the following, based on a directory containing EM50 output files:</p>
+<ol style="list-style-type: decimal">
+<li>Read the first three lines of each file in the directory containing meta data</li>
+<li>Create one character string for each variable containing the port, sensor type and measurement unit.</li>
+<li>Read the remaining lines for each file in the directory containing the data</li>
+<li>Set the column names based on the strings in <em>2)</em></li>
+<li>Transform the data into long format (resulting in one time stamp, one measurement, and one “meta string” column)</li>
+<li>Nest the data, and subsequently use the “meta string” to generate individual columns for ports, sensor type and measurement units.</li>
+</ol>
+<div id="the-function" class="section level3">
+<h3>The function</h3>
+<p><code>read_em50()</code> ended up relying heavily on the series of map functions from <code>purrr</code>. I’ve slowly but surely shifted toward using <code>map()</code> (and the likes of) to do most of my ‘batch processing’, as I very much appreciate the consistent syntax. Here it is:</p>
+<pre class="r"><code>#&#39; Read EM50 files from a directory in batch
+#&#39;
+#&#39; @description This function allows reading an entire directory of EM50 logger files. Files within one directory should have a consistent pattern (i.e. sensor set-up), reflecting one logger / location. 
+#&#39; @param fpath Character string. Path to the directory containing EM50 files.
+#&#39; @param site_id Character string. Unique identifier for each site, corresponding to the _fpath_ directory
+#&#39;
+#&#39; @return A list, with individual tibbles for each directory/site, containing key meta and identifier columns, and a nested data column of time stamps and corresponding measurements.
+#&#39; @export
+
+read_em50 &lt;- function(fpath, site_id){
+        require(readxl)
+        require(purrr)
+        require(dplyr)
+        
+        fnames &lt;- list.files(fpath, full.names = TRUE, pattern = &quot;*.xls*&quot;)
+        
+        # extract meta information (first three lines) for all files
+        meta &lt;- map(fnames,
+                    readxl::read_excel, 
+                      n_max = 3,
+                    col_names = FALSE) %&gt;% 
+                # create one meta string for all info in one column
+                map(~apply(.x, MARGIN = 2, paste0, collapse = &quot;_&quot;)
+                             ) %&gt;% 
+                # rename date time column
+                modify_depth(1, 
+                             ~modify_at(.x,
+                                        1,
+                                        function(x) stringr::str_replace(x, &quot;.*&quot;, &quot;date_time&quot;)
+                                        )
+                             ) %&gt;% 
+                map(as.character)
+        
+       
+        # drop columns in original file resulting from ports missing sensors
+        if(any(map(meta, ~any(grepl(&quot;None&quot;, .x))))){
+                
+                keep_cols &lt;- map(meta, ~!grepl(&quot;None&quot;, .x)) %&gt;% 
+                        map(~which(.x == TRUE))
+                
+                meta &lt;- map2(meta, keep_cols, ~`[`(.x,.y))
+        }
+        
+        
+        # read in all data as numeric (results in numeric excel dates) 
+        temp_data  &lt;- map(fnames,
+                          readxl::read_excel, 
+                          skip = 3,
+                          col_names = FALSE,
+                          col_types = &quot;numeric&quot;) %&gt;% 
+                # use meta string to set column names
+                map2(meta, ~set_names(.x, .y)) %&gt;% 
+                # account for numeric dates
+                map(~mutate(.x, 
+                            date_time = as.POSIXct(&quot;1899-12-30&quot;, tz = &quot;MST&quot;) +
+                                    date_time * 3600 * 24 )) %&gt;% 
+                # make data long
+                map(~tidyr::gather(.x, -date_time, key = &quot;col_names&quot;, value = &quot;value&quot;)) %&gt;% 
+                bind_rows() %&gt;% 
+                dplyr::distinct() %&gt;% 
+                tidyr::nest(-col_names) %&gt;% 
+                # use meta column to produce additional columns for port, sensor and measurement
+                mutate(port = stringr::str_extract(col_names, &quot;Port [:digit:](?=_)&quot;),
+                       sensor = stringr::str_extract(col_names, &quot;(?&lt;=_).*(?=_)&quot;),
+                       # unit = stringr::str_extract(col_names, &quot;([^_]*)[^ ]$&quot;) 
+                       # %&gt;% stringr::str_extract(&quot;.*(?&lt;= )&quot;),
+                       measure = stringr::str_extract(col_names, &quot;([^ ]*)$&quot;),
+                       site = site_id,
+                       col_names = NULL) 
+
+        
+        
+        
+        return(temp_data)
+
+        
+        
+        
+}</code></pre>
+<p>In action, it then looks as follows:</p>
+<pre class="r"><code>library(purrr)
+library(tidyr)
+library(dplyr)
+
+# set file paths
+fpaths &lt;- list.dirs(&quot;./2018-11-24-tidy-em50/dat&quot;,
+                    full.names = TRUE, 
+                    recursive = FALSE)
+
+# extract site locations from directory names
+site_ids &lt;- gsub(&quot;.*/&quot;, &quot;&quot;, fpaths)
+
+# run the function!
+em_data &lt;- map2(fpaths,site_ids,
+                ~read_em50(fpath = .x,
+                  site_id = .y))
+
+
+# read_em50 produces a list of tibbles, one for each directory/site
+# this step simply produces the final tibble
+em_data_flat &lt;- em_data %&gt;% 
+        bind_rows()
+
+
+# replaced the nested tibble with a char. string for easier viz
+knitr::kable(x = em_data_flat %&gt;%
+                   mutate(data = &quot;nested df&quot;) %&gt;% 
+                   head(5),
+             format = &quot;html&quot;,
+             caption = &quot;A quick look at the first five rows of the resulting tibble. 
+             Note, the actual nested tibble was replaced with a character string for visualization.&quot;)</code></pre>
+<table>
+<caption>
+<span id="tab:in-action">Table 1: </span>A quick look at the first five rows of the resulting tibble. Note, the actual nested tibble was replaced with a character string for visualization.
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+data
+</th>
+<th style="text-align:left;">
+port
+</th>
+<th style="text-align:left;">
+sensor
+</th>
+<th style="text-align:left;">
+measure
+</th>
+<th style="text-align:left;">
+site
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 1
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+VWC
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 1
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+Temp
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 1
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+Bulk
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 2
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+VWC
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 2
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+Temp
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+</tr>
+</tbody>
+</table>
+<p>{{% alert note %}}</p>
+<p>Unfortunately, my regex skills are sub-par, and I was only able to capture part of the measurement unit. Any help / comments would be greatly appreciated if you end up applying this function.</p>
+<p>{{% /alert %}}</p>
+<p>Adding additional info/meta data (e.g. sensor depths, soil characteristics) from another source (e.g. *.csv) is then simply done with a table join:</p>
+<p><br></p>
+<pre class="r"><code>library(tidyr)
+
+sensor_meta &lt;- read.csv(&quot;./2018-11-24-tidy-em50/dat/meta.csv&quot;,
+                        stringsAsFactors = FALSE)
+
+em_data_flat_join &lt;- em_data_flat %&gt;% 
+        left_join(sensor_meta, 
+                  by = c(&quot;site&quot;, &quot;port&quot;)) 
+# replaced the nested tibble with a char. string for easier viz
+knitr::kable(x = em_data_flat_join %&gt;%
+                   mutate(data = &quot;nested df&quot;) %&gt;% 
+                   head(5),
+             format = &quot;html&quot;,
+             caption = &quot;First five rows of the data in its final output format&quot;)</code></pre>
+<table>
+<caption>
+<span id="tab:in-action-add-meta">Table 2: </span>First five rows of the data in its final output format
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+data
+</th>
+<th style="text-align:left;">
+port
+</th>
+<th style="text-align:left;">
+sensor
+</th>
+<th style="text-align:left;">
+measure
+</th>
+<th style="text-align:left;">
+site
+</th>
+<th style="text-align:left;">
+project
+</th>
+<th style="text-align:right;">
+pond
+</th>
+<th style="text-align:right;">
+depth_m
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 1
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+VWC
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+<td style="text-align:left;">
+URSA
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+0.10
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 1
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+Temp
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+<td style="text-align:left;">
+URSA
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+0.10
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 1
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+Bulk
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+<td style="text-align:left;">
+URSA
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+0.10
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 2
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+VWC
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+<td style="text-align:left;">
+URSA
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+0.25
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+nested df
+</td>
+<td style="text-align:left;">
+Port 2
+</td>
+<td style="text-align:left;">
+5TE Moisture/Temp/EC
+</td>
+<td style="text-align:left;">
+Temp
+</td>
+<td style="text-align:left;">
+19-59
+</td>
+<td style="text-align:left;">
+URSA
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+0.25
+</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<pre class="r"><code>library(ggplot2)
+
+em_data_flat_join %&gt;%
+      filter(site == &quot;19-59&quot;) %&gt;% 
+      tidyr::unnest() %&gt;%
+      ggplot(aes(x = date_time, 
+                 y = value,
+                 color = as.factor(depth_m))) +
+      geom_line() +
+      labs(x = &quot;Date&quot;,
+           y = &quot;Value&quot;, 
+           title = &quot;Soil electrical conductivity, temperature and vol. water content for Site 19-59&quot;, 
+           color = &quot;Depth (m)&quot;) +
+      facet_grid(measure~., 
+                 scales = &quot;free_y&quot;) +
+      theme_bw()</code></pre>
+<p><img src="/post/2018-11-24-tidy-em50_files/figure-html/plot-1.png" width="672" /></p>
+</div>
+</div>
+<div id="wrapping-up" class="section level2">
+<h2>Wrapping up</h2>
+<p>The function has proven extremely helpful for pulling together data of interest quickly, as well as in producing exploratory and subsequent, higher-quality visualizations. Next to the saved time, what I ejoyed most was brainstorming and finding the simplest “one size fits all” approach. Yet, the function seems to be fairly slow, as there is quite a bit of copying around involved with carrying over the meta character string. A few improvements that I may implement in the future include 1) parallelization for a speed boost, 2) making the column renaming more efficient, and 3) providing more optional arguments to <code>read_em50()</code> that allow pre-defining ports / sensor types for the read-in process. I’d also very much appreciate any feedback and suggestions on improving my use of <code>map()</code> - or limiting it by providing alternatives.</p>
+</div>
