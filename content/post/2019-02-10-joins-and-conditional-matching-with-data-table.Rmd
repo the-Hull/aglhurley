@@ -216,7 +216,7 @@ I used a `list` to store all of the basic model parameters in `model_params`:
 - height of each cell (i.e. $\Delta z$)
 
 
-The number of cells is then derived as $n = z \Delta z$.
+The number of cells is then derived as $n = \frac{ z } {\Delta z}$.
 
 Additionally, I pulled soil profile and texture data from a soil coring log of our field sites and stored them in `soil_param` as a `data frame`.
 The data shown here are a simplified 'dummy' set.
