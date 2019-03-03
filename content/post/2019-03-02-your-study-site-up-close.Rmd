@@ -1,0 +1,69 @@
+---
+title: Your study site up close
+author: Alex
+date: '2019-03-02'
+slug: your-study-site-up-close
+categories:
+  - R
+  - mapping
+  - Data Science
+tags:
+  - R
+  - rayshader
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+```{r}
+library(dplyr)
+library(rayshader)
+library(raster)
+library(rgdal)
+
+# read raster DEM
+
+
+
+dem <- raster("C:/Users/ahurl/OneDrive/PhD/data/raw/P19/GeoData/P19_Area_DEM/P19_Area.grd")
+surf <- raster("C:/Users/ahurl/OneDrive/PhD/data/raw/P19/GeoData/Airphotos.gdb/tif")
+# plot(dem)
+
+
+dem_matrix <- matrix(raster::extract(dem,
+                                     raster::extent(dem),
+                                     buffer=1000),
+               nrow=ncol(dem),ncol=nrow(dem))
+      
+raymat  <-  ray_shade(dem_matrix, sunangle = 100, anglebreaks = 5:15, multicore = TRUE)
+# raymat  <-  ray_shade(dem_matrix^2, sunangle = 100, anglebreaks = 5:15, multicore = TRUE)
+
+
+# dem_matrix %>% 
+#       sphere_shade(texture = "desert") %>%
+#       add_water(detect_water(dem_matrix), color="desert") %>%
+#         add_shadow(raymat, max_darken = 0.1) %>%
+#         add_shadow(ambmat, max_darken = 0.3) %>%
+# 
+#       plot_map()
+
+
+dem_matrix %>% 
+      sphere_shade(texture = "imhof1") %>%
+      add_water(detect_water(dem_matrix), color="desert") %>%
+        add_shadow(raymat, max_darken = 0.1) %>%
+        # add_shadow(ambmat, max_darken = 0.1) %>%
+ plot_3d(dem_matrix,
+         zscale=0.1,
+         fov=0,
+         theta=15,
+         phi=35,
+         zoom=0.2,
+         water=FALSE)
+
+render_snapshot("C:/Users/ahurl/OneDrive/PhD/analyses/out/figs/00_rayshader_gretel_sw1_zoomed_out.png")
+rgl::rgl.clear()
+```
+
