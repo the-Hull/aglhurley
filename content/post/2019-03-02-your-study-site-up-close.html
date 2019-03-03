@@ -1,0 +1,88 @@
+---
+title: Your study site up close
+author: Alex
+date: '2019-03-02'
+slug: your-study-site-up-close
+categories:
+  - R
+  - mapping
+  - Data Science
+tags:
+  - R
+  - rayshader
+header:
+  caption: ''
+  image: ''
+draft: TRUE
+---
+
+
+
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(rayshader)
+library(raster)</code></pre>
+<pre><code>## Loading required package: sp</code></pre>
+<pre><code>## 
+## Attaching package: &#39;raster&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
+## 
+##     select</code></pre>
+<pre class="r"><code>library(rgdal)</code></pre>
+<pre><code>## rgdal: version: 1.3-9, (SVN revision 794)
+##  Geospatial Data Abstraction Library extensions to R successfully loaded
+##  Loaded GDAL runtime: GDAL 2.2.3, released 2017/11/20
+##  Path to GDAL shared files: C:/Users/ahurl/Documents/R/win-library/3.5/rgdal/gdal
+##  GDAL binary built with GEOS: TRUE 
+##  Loaded PROJ.4 runtime: Rel. 4.9.3, 15 August 2016, [PJ_VERSION: 493]
+##  Path to PROJ.4 shared files: C:/Users/ahurl/Documents/R/win-library/3.5/rgdal/proj
+##  Linking to sp version: 1.3-1</code></pre>
+<pre class="r"><code># read raster DEM
+
+
+# 
+# dem &lt;- raster(&quot;C:/Users/ahurl/OneDrive/PhD/data/raw/P19/GeoData/P19_Area_DEM/P19_Area.grd&quot;)
+# surf &lt;- raster(&quot;C:/Users/ahurl/OneDrive/PhD/data/raw/P19/GeoData/Airphotos.gdb/tif&quot;)
+# # plot(dem)
+# 
+# 
+# dem_matrix &lt;- matrix(raster::extract(dem,
+#                                      raster::extent(dem),
+#                                      buffer=1000),
+#                nrow=ncol(dem),ncol=nrow(dem))
+#       
+# raymat  &lt;-  ray_shade(dem_matrix, sunangle = 100, anglebreaks = 5:15, multicore = TRUE)
+# # raymat  &lt;-  ray_shade(dem_matrix^2, sunangle = 100, anglebreaks = 5:15, multicore = TRUE)
+# 
+# 
+# # dem_matrix %&gt;% 
+# #       sphere_shade(texture = &quot;desert&quot;) %&gt;%
+# #       add_water(detect_water(dem_matrix), color=&quot;desert&quot;) %&gt;%
+# #         add_shadow(raymat, max_darken = 0.1) %&gt;%
+# #         add_shadow(ambmat, max_darken = 0.3) %&gt;%
+# # 
+# #       plot_map()
+# 
+# 
+# dem_matrix %&gt;% 
+#       sphere_shade(texture = &quot;imhof1&quot;) %&gt;%
+#       add_water(detect_water(dem_matrix), color=&quot;desert&quot;) %&gt;%
+#         add_shadow(raymat, max_darken = 0.1) %&gt;%
+#         # add_shadow(ambmat, max_darken = 0.1) %&gt;%
+#  plot_3d(dem_matrix,
+#          zscale=0.1,
+#          fov=0,
+#          theta=15,
+#          phi=35,
+#          zoom=0.2,
+#          water=FALSE)
+# 
+# render_snapshot(&quot;C:/Users/ahurl/OneDrive/PhD/analyses/out/figs/00_rayshader_gretel_sw1_zoomed_out.png&quot;)
+# rgl::rgl.clear()</code></pre>
