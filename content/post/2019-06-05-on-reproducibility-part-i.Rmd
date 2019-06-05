@@ -31,3 +31,6 @@ There are multiple methods to address these issues, and upcoming posts will deal
 
 
 ### Part 1 - Research Compendia
+
+- [Post](https://the-hull.github.io/reproducibility_compendium/analyses/00_write-up.html)
+- [GitHub repository (compendium)](https://github.com/the-Hull/reproducibility_compendium/)
