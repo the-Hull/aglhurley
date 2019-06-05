@@ -1,8 +1,7 @@
 +++
 date = 2019-04-08T00:00:00  # Schedule page publish date.
 
-title = "Staying up-to date:
-automating tasks from downloading data to reporting (EGU19 SC1.44 /HS12.5)"
+title = "Staying up-to date: automating tasks from downloading data to reporting (EGU19 SC1.44 /HS12.5)"
 time_start = 2019-04-08T16:15:00
 time_end = 2019-04-08T16:30:00
 abstract = ""
