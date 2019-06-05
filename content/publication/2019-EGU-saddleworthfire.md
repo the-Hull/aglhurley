@@ -42,7 +42,7 @@ projects = ["phd-research"]
 tags = []
       
 # Links (optional).
-url_pdf = "https://meetingorganizer.copernicus.org/EGU2019/EGU2019-14785-1.pdf"
+url_pdf = "https://meetingorganizer.copernicus.org/EGU2019/EGU2019-7772.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -51,7 +51,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
-url_custom = [{name = "Poster PDF", url = "https://github.com/the-Hull/egu2019/raw/master/ahurley_EGU2019-14785.pdf"}]
+# url_custom = [{name = "Poster PDF", url = "https://github.com/the-Hull/egu2019/raw/master/ahurley_EGU2019-14785.pdf"}]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
