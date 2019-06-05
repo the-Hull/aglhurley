@@ -1,7 +1,7 @@
 +++
 date = 2019-04-08T00:00:00  # Schedule page publish date.
 
-title = "Obtaining, cleaning and visualizing hydrological data with R"
+title = "Obtaining, cleaning and visualizing hydrological data with R (EGU19 SC1.44 /HS12.5)"
 time_start = 2019-04-08T16:35:00
 time_end = 2019-04-08T16:50:00
 abstract = ""
