@@ -30,7 +30,7 @@ While any researcher can derive insights with the aforementioned set-up, it take
 There are multiple methods to address these issues, and upcoming posts will deal with approaches (of varying complexity) to allow an entire analyses (from raw data to final report/publication) to be reproduced by anyone (with a little bit of computing knowledge).
 
 
-### Part 1 - Research Compendia
+### Part 1 - Research Compendium
 
 - [Post](https://the-hull.github.io/reproducibility_compendium/analyses/00_write-up.html)
 - [GitHub repository (compendium)](https://github.com/the-Hull/reproducibility_compendium/)
