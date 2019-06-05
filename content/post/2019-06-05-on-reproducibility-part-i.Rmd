@@ -1,6 +1,6 @@
 ---
 title: On reproducibility of computational methods and analyses
-author: ''
+author: 'Alex'
 date: '2019-06-05'
 slug: on-reproducibility-part-i
 categories:
