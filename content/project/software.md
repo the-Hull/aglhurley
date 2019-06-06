@@ -35,7 +35,18 @@ My software is written in [R (for statistical computing)](https://www.r-project.
 
 ### Current Projects
 
-- <small> **RAPTOR** (Row And Tracheid Organizer in R): This packages performs wood cell anatomical data analyses on spatially explicit xylem (tracheids) datasets derived from wood anatomical thin sections. The package includes functions for the visualisation, alignment and detection of continuous tracheid radial file (defines as rows) and tracheid position within an annual ring of coniferous species. (Note: [Richard L. Peters](http://www.wsl.ch/info/mitarbeitende/peters/index_EN) is the project-lead and behind the fascinating mathematics; my duties are ensuring that the package met criteria for submission to software archives by adjusting code, efficiency and structure). </small>
+- <small> **lib2bib**: this package aims to facilitate acknowledging developers of (open-source) software in the #rstats community. Package development and maintenance require effort and time - most contributions are typically unpaid. Hence, some recognition goes a long way. The package allows:
+
+identifying all packages used in a directory/project, script or Rmarkdown files,
+printing them to console (or to a list)
+writing a .txt or .bib file with the package bibliography 
+
+[GitHub Repository](https://github.com/the-Hull/lib2bib) // [Package website](https://the-hull.github.io/lib2bib/index.html)
+
+</small>
+
+- <small> **RAPTOR** (Row And Tracheid Organizer in R): This packages performs wood cell anatomical data analyses on spatially explicit xylem (tracheids) datasets derived from wood anatomical thin sections. The package includes functions for the visualisation, alignment and detection of continuous tracheid radial file (defines as rows) and tracheid position within an annual ring of coniferous species. (Note: [Richard L. Peters](http://www.wsl.ch/info/mitarbeitende/peters/index_EN) is the project-lead and behind the fascinating mathematics; my duties are ensuring that the package met criteria for submission to software archives by adjusting code, efficiency and structure).  
+[GitHub Repository](https://github.com/the-Hull/raptor/) // [CRAN](https://cran.r-project.org/web/packages/RAPTOR/index.html)</small>
 
 
 ## Data science products <a name = "data-science"></a>
