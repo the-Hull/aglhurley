@@ -31,15 +31,14 @@ caption = "&copy; A. Hurley"
 
 Research is generally highly domain and application specific and therefore often requires unique and tailored data analyses approaches. While specialized, many approaches are well established within scientific communities, yet are applied on a variety of platforms in a non-standardized manner. By developing and distributing well-documented, open-source software, such analyses can become more accessible, aiding in advancing science toward more reproducibility.
 
-My software is written in [R (for statistical computing)](https://www.r-project.org/) and freely available via my [GitHub repositories](www.github.com/the-Hull).
+My software is written in [R (for statistical computing)](https://www.r-project.org/) and freely available via my [GitHub repositories](https://github.com/the-Hull).
 
 ### Current Projects
 
-- <small> **lib2bib**: this package aims to facilitate acknowledging developers of (open-source) software in the #rstats community. Package development and maintenance require effort and time - most contributions are typically unpaid. Hence, some recognition goes a long way. The package allows:
-
-identifying all packages used in a directory/project, script or Rmarkdown files,
-printing them to console (or to a list)
-writing a .txt or .bib file with the package bibliography 
+- <small> **lib2bib**: this package aims to facilitate acknowledging developers of (open-source) software in the #rstats community. Package development and maintenance require effort and time - most contributions are typically unpaid. Hence, some recognition goes a long way. The package allows:  
+  + identifying all packages used in a directory/project, script or Rmarkdown files,
+  + printing them to console (or to a list)
+  + writing a .txt or .bib file with the package bibliography 
 
 [GitHub Repository](https://github.com/the-Hull/lib2bib) // [Package website](https://the-hull.github.io/lib2bib/index.html)
 
