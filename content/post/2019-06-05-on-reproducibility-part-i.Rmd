@@ -12,9 +12,10 @@ tags:
   - r-dev
   - packages
 header:
-  caption: ''
-  image: ''
-  preview: yes
+  image: "headers/projects/wl2-rep.jpg"
+  caption: "&copy; A. Hurley"
+summary: "Keeping up with reproducibility - some insights and approaches"
+
 ---
 
 ## Reproducibility is key
@@ -37,4 +38,14 @@ There are multiple methods to address these issues, and upcoming posts will deal
 
 ---
 
-### Part 2 - TBC
+### Part 2 - Docker, `rocker` and isolating your Environment
+
+Wait for it..!
+
+---
+
+### Part 3 - Using `drake` for managing your analyses
+
+Wait for it..!
+
+---
