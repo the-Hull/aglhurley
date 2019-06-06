@@ -45,6 +45,7 @@ My software is written in [R (for statistical computing)](https://www.r-project.
 </small>
 
 - <small> **RAPTOR** (Row And Tracheid Organizer in R): This packages performs wood cell anatomical data analyses on spatially explicit xylem (tracheids) datasets derived from wood anatomical thin sections. The package includes functions for the visualisation, alignment and detection of continuous tracheid radial file (defines as rows) and tracheid position within an annual ring of coniferous species. (Note: [Richard L. Peters](http://www.wsl.ch/info/mitarbeitende/peters/index_EN) is the project-lead and behind the fascinating mathematics; my duties are ensuring that the package met criteria for submission to software archives by adjusting code, efficiency and structure).  
+
 [GitHub Repository](https://github.com/the-Hull/raptor/) // [CRAN](https://cran.r-project.org/web/packages/RAPTOR/index.html)</small>
 
 
