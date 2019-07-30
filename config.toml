@@ -254,10 +254,16 @@ defaultContentLanguageInSubdir = false
   # Align the main menu to the right of the page? (true/false)
   align_right = true
 
+# [[menu.main]]
+#  name = "Home"
+#  url = "#about"
+#  weight = 1
+
+
 [[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
+  name = "Blog"
+  url = "#posts"
+  weight = 5
 
 [[menu.main]]
   name = "Publications"
@@ -274,15 +280,28 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 4
 
-
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 5
+  
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 6
+  
+[[menu.main]]
+  name = "CV"
+  weight = 7
+  identifier = "CV"
+
+[[menu.main]]
+  name = "Download CV"
+  url = "cv/hurley_cv.pdf"
+  weight = 1
+  parent = "CV"
+  
+[[menu.main]]
+  name = "Code Portfiolio"
+  url = "https://github.com/the-Hull/code_portfolio#portfolio"
+  weight = 2
+  parent = "CV"
 
 # Taxonomies.
 [taxonomies]
