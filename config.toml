@@ -55,11 +55,11 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Alexander Hurley"
-  role = "Doctoral Researcher in Ecohydrology"
+  role = "Postdoctoral Researcher in Urban Dendroecology"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "University of Birmingham", url = "www.birmingham.ac.uk" } ]
+  organizations = [ { name = "GFZ German Research Centre for Geosciences", url = "https://www.gfz-potsdam.de/en/home/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "prof3.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
