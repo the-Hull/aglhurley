@@ -19,7 +19,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Physical Geography (ongoing)"
+  course = "PhD in Physical Geography"
   institution = "University of Birmingham"
   year = 2020
 
