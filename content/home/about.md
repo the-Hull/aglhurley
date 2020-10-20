@@ -11,9 +11,10 @@ weight = 5
 [interests]
   interests = [
     "Plant-Water Interactions",
-    "Data Science and Visualization",
+    "Urban trees",
+    "Data Visualization",
     "Software Development",
-    "Computational Ecology"
+    "Reproducible Science"
   ]
 
 # List your qualifications (such as academic degrees).
