@@ -20,7 +20,7 @@ weight = 5
 [[education.courses]]
   course = "PhD in Physical Geography (ongoing)"
   institution = "University of Birmingham"
-  year = 0
+  year = 2020
 
 [[education.courses]]
   course = "International MSc in Applied Ecology (EMMC)"
@@ -36,17 +36,11 @@ weight = 5
 
 # Biography
 
-## Alex, who?
+In general, my aim is to involve myself in innovative, collaborative and inter-disciplinary research in environmental sciences and applied ecology, enabling evidence-based decision-making. My research foci lie in  **boreal ecohydrology** (wetland-forest interactions), (urban) **tree-growth dynamics** and **plant ecophysiology**. I continuously dedicate myself to the generation of data, (software) tools and rigorous analyses in a transparent, accessible and reproducible manner.
 
-I am a PhD student at the [University of Birmingham](http://www.birmingham.ac.uk) under [Dr Nick Kettridge](http://www.birmingham.ac.uk/staff/profiles/gees/kettridge-nick.aspx) and [Prof Stefan Krause](http://www.birmingham.ac.uk/staff/profiles/gees/krause-stefan.aspx). I mostly spend my days working toward the completion of my [PhD]({{< ref "project/phd-research.md" >}}), but I sometimes find enough time at my disposal to dive into other subjects, fields and activities. Studying environmental issues allowed me to explore some great places and meet interesting people from a variety of fields and backgrounds - working collaboratively is always a great joy!
+In my current position at the [GFZ](https://www.gfz-potsdam.de/en/home/), I am assessing **tree growth dynamics and long-term ecophysiological adaptations in urban(izing) settings across Berlin** and the wider North-East of Germany. This work is done in collaboration with the UFZ Leipzig under the umbrella of [HI-CAM (Helmholtz Initiative for Climate Adaptation and Mitigation)](https://www.helmholtz-klima.de/) in the Project Cluster *Urban Systems*.
 
-<!--- For a detailed CV click **here** --->
+For a detailed CV click [**here**](cv/hurley_cv.pdf)
 
-
-## Science, what?
-
-This is how I see it: science is an altruistic endeavor, where we try to understand our surroundings - (to satisfy curiousity as well as) for the benefit of our and hopefully fellow species. Sharing new insights is therefore vital. Base that on collaborative, reproducible and transparent research, and that's what I want to be part of. In short: nature is beautiful - and a privilege to study with passionate colleagues :smile:.
-
-In the future, I hope to get involved in innovative, collaborative and inter-disciplinary research in ecohydrology and applied ecology, enabling evidence-based decision-making. Fingers crossed!
 
 
