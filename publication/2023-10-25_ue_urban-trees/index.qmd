@@ -1,0 +1,44 @@
+---
+title: "Assessing urban-heating impact on street tree growth in Berlin with open inventory and environmental data"
+
+author: [{name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Ingo Heinrich"]
+
+date: "2023-10-25"
+
+slug: ue-urban-heat-trees
+
+categories: 
+  - research
+
+tags: 
+  - Open Science
+  - Tree Growth
+  - Climate Adaptation
+  - R
+  
+image: featured.png
+
+featured: yes
+
+
+publication: "*Urban Ecosystems*"
+
+
+links:
+- icon: doi
+  icon_pack: ai
+  name: Publication
+  url: https://doi.org/10.1007/s11252-023-01450-9
+- icon: laptop-code
+  name: Code
+  url: https://doi.org/10.5281/zenodo.7217032
+
+
+
+
+---
+
+## Abstract
+
+
+Excess heat (i.e., Urban Heat Island; UHI) and other urban conditions affect tree physiology with outcomes from enhanced growth to mortality. Resilient urban forests in the face of climate change require species-specific understanding of growth responses. However, previous studies assessing growth dynamics were primarily based on remote sensing of communities rather than individuals, or relied on labor-intensive methods that can limit the spatial coverage necessary to account for highly variable urban growing conditions. Here, we analyze growth dynamics of common urban street tree species over time and across space for Berlin (Germany) combining dendroecological (temporal) and inventory assessments (spatial). First, we show annual increments increased across the 20th century for early (i.e., young) growth. Second, we use an approach relying on open inventory data to identify growth potential in relation to excess heat while accounting for age, potential management effects, and the urban fabric (i.e., planting area; building density, height; available soil nutrients) with generalized additive models for the ten most abundant species. Our analyses showed that younger trees may benefit from increased temperatures, while older individuals feature lower growth at greater UHI magnitudes. Furthermore, planting area as well as building density modulate growth responses to temperature. Lastly, we discuss management implications in the context of climate change mitigation, considering that younger trees are predominantly located at UHI “hot spots” and will undergo the observed age-dependent shift in temperature-growth sensitivity. By relying on increasingly available open data, our approach here is or will be transferable to other urban regions.

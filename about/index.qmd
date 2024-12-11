@@ -1,0 +1,212 @@
+---
+title: "Alexander Hurley"
+subtitle: Enviornmental Data Scientist and Policy Analyst,<br>at German Expert Council on Climate Change
+image: sidebar/prof.jpg
+image-alt: "Smiling man, short dark hair"
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: "round"
+  id: hero-heading
+  links:
+    - text: "{{< fa universal-access >}}"
+      aria-label: "Accessibility statement"
+      href: accessibility.qmd
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://linkedin.com/in/aglhurley
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/aglhurley
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0002-9641-2805
+    - text: "{{< ai google-scholar >}}"
+      aria-label: "Google Scholar"
+      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
+# listing: 
+# - id: blog
+#   contents: 
+#     - "../blog/*/index.qmd"
+#     - "../blog/*/index.markdown"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   fields: [title, subtitle, image]
+#   max-items: 1
+#   image-height: "200"
+# - id: talk
+#   contents: 
+#     - "../talk/*/index.qmd"
+#     - "../talk/*/index.markdown"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   fields: [title, subtitle, image]
+#   max-items: 1
+#   image-height: "200"
+# - id: publication
+#   contents: 
+#     - "../publication/*/index.qmd"
+#     - "../publication/*/index.markdown"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   fields: [title, image]
+#   max-items: 1
+#   image-height: "200"
+#   image-placeholder: ../publication/featured.jpg
+# - id: project
+#   contents: 
+#     - "../project/*/index.qmd"
+#     - "../project/*/index.markdown"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   fields: [title, subtitle, image]
+#   max-items: 1
+#   image-height: "200"
+format: 
+  html: 
+    page-layout: full
+
+header-includes: >
+  <link rel="stylesheet" href="../assets/about.css">
+resources:
+  - ../assets/about.css
+---
+
+::: {#hero-heading}
+<div class="h1">In a nutshell:</div>
+
+
+I'm an **environmental data scientist** with a passion for **policy**, **open science** and data **visualization**. 
+
+Currently, I advise the [German Council of Experts on Climate Change](https://expertenrat-klima.de/) on climate change mitigation in the areas of land-use, forestry and agriculture as a policy and data analyst. 
+
+ 
+Check out <a href="https://aglhurley.rbind.io/cv/hurley_cv.pdf/">my CV</a> and my [code portfolio](https://github.com/the-Hull/code_portfolio).
+
+Get in touch [here](/contact.qmd)! {{< fa paper-plane >}}
+
+:::
+
+## About Me
+
+
+::: {.grid}
+
+
+::: {.g-col-6 #about-me-1}
+
+### Experience
+
+
+Across the last decade, I led and contributed to several large research projects. 
+Currently, I lead and support work on assessing Germany's compliance with the Climate Protection Act in LULUCF and agriculture. 
+This includes auditing emissions inventories and projections, as well as analysing policy options for mitigation. 
+
+I enjoy developing [open source software](https://github.com/the-Hull/code_portfolio?tab=readme-ov-file#authored) for research. 
+For example, [datacleanr](https://github.com/the-Hull/datacleanr/) is used by multiple research groups for reproducible processing of ecophysiological data.
+
+:::
+
+::: {.g-col-6 #about-me-2}
+
+### Education and Teaching
+
+I am trained in environmental sciences and ecology, data science as well as numerical modelling.
+My tools of choice are [R](https://www.r-project.org/about.html) and [python](https://www.python.org/).
+
+I enjoy [teaching](https://github.com/the-Hull/code_portfolio?tab=readme-ov-file#presentations) methods in statistics, data science and project management, and contribute to [open science](https://deep-tools.netlify.app/) by delivering workshops and making them openly available.
+
+:::
+
+
+:::
+
+::: {.grid}
+
+::: {.g-col-6 #about-me-3}
+
+**Previously, I worked on:**
+
+
+<ul class="fa-ul">
+   <li><span class="fa-li"><i class="fa-solid fa-tree"></i></span><a href="http://etheses.bham.ac.uk/id/eprint/10413">Wetland-forest interactions</a> to support the restoration of oil sand mines in Canada
+   </li>
+   <li><span class="fa-li"><i class="fa-solid fa-tree-city"></i></span><a href="https://link.springer.com/article/10.1007/s11252-023-01450-9">Climate adaptation of urban trees</a> in the <a href="https://www.helmholtz-klima.de/">Helmholtz Climate Initiative</a> 
+   </li>
+   <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span><a href="https://doi.org/10.1371/journal.pone.0268426">Research software development</a>
+   </li>
+   <li><span class="fa-li"><i class="fa-solid fa-kiwi-bird"></i></span><a href="https://github.com/the-Hull/Diss">Modelling ecological systems</a>
+   </li>
+
+</ul>
+
+:::
+
+
+
+::: {.g-col-6 #about-me-4}
+
+**My training includes:**
+
+
+<ul class="fa-ul">
+   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://www.spiced-academy.com/en/program/data-science">Certificate in Data Science</a> ∙ SPICED Academy ∙ 2022</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Physical Geography ∙ University of Birmingham ∙ 2022</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>M.Sc. in Applied Ecology ∙ University of East Anglia ∙ University of Coimbra ∙ University of Poitiers ∙ 2015</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.Sc. in Environmental Science ∙ University of Bayreuth ∙ 2013</li>
+</ul>
+
+
+:::
+:::
+
+<!-- end grid -->
+
+## The latest ...
+
+:::: {.grid}
+
+::: {.g-col-3}
+#### Blog
+::: {#blog}
+:::
+[See all &rarr;](../blog){.about-links .subtitle}
+:::
+
+::: {.g-col-3}
+#### Talks
+::: {#talk}
+:::
+[See all &rarr;](../talk){.about-links .subtitle}
+:::
+
+::: {.g-col-3}
+#### Publications
+::: {#publication}
+:::
+[See all &rarr;](../publication){.about-links .subtitle}
+:::
+
+::: {.g-col-3}
+#### Projects
+::: {#project}
+:::
+[See all &rarr;](../project){.about-links .subtitle}
+:::
+
+::::

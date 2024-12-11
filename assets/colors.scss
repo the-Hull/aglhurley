@@ -1,0 +1,59 @@
+/*-- scss:defaults --*/
+
+// Quarto references:
+// Variables: https://github.com/quarto-dev/quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-variables.scss
+// Rules: https://github.com/quarto-dev/quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-rules.scss
+
+// $spc-bg-00: #ababab;
+// $spc-bg-0: #fffbf2;
+// $spc-bg-1: #FAF0E3;
+// $spc-primary: #002642;
+// $spc-primary-light: #2E4963;
+// $spc-secondary: #A23E02;
+// $spc-secondary-light: #D96E34;
+// $spc-accent: #b9c680;
+// $spc-accent-light: #EEF1E0;
+// $spc-accent-dark: #697935;
+
+
+// $spc-bg-00: #f6f6f4;        // Neutral soft background
+// $spc-bg-0: #eef0e9;         // Light sage background
+// $spc-bg-1: #dfe3d6;         // Muted sage tone
+// $spc-primary: #697935;      // Sage green for primary elements
+// $spc-primary-light: #b9c680; // Light sage for accents
+// $spc-secondary: #5a6e22;    // Deeper green for contrast
+// $spc-secondary-light: #8ca266; // Softer green for highlights
+// $spc-accent: #ef9a9a;       // Light coral accent (optional)
+// $spc-accent-light: #ffd1b3; // Subtle peach tone
+// $spc-accent-dark: #364d20;  // Darker green for depth
+
+$spc-bg-00: #1b1b1b;         // Dark background
+$spc-bg-0: #2a2a2a;          // Slightly lighter dark background
+$spc-bg-1: #353535;          // Accent dark background
+$spc-primary: #b9c680;       // Sage green as the main accent
+$spc-primary-light: #d6e1b4; // Lighter sage green for highlights
+// $spc-secondary: #8ca266;     // Softer sage green for contrast
+// $spc-secondary-light: #aab88e; // Muted secondary highlight
+$spc-secondary: #6682a2;     // Softer sage green for contrast
+$spc-secondary-light: #8e9ebb; // Muted secondary highlight
+$spc-accent: #ffcccb;        // Soft coral for subtle pops of color
+$spc-accent-light: #ffe4d9;  // Light peach for highlights
+$spc-accent-dark: #364d20;   // Darker green for depth
+
+
+// CSS variables
+:root {
+  --spc-bg-00: #1b1b1b;         // Dark background
+  --spc-bg-0: #2a2a2a;          // Slightly lighter dark background
+  --spc-bg-1: #353535;          // Accent dark background
+  --spc-primary: #b9c680;       // Sage green as the main accent
+  --spc-primary-light: #d6e1b4; // Lighter sage green for highlights
+  // $spc-secondary: #8ca266;     // Softer sage green for contrast
+  // $spc-secondary-light: #aab88e; // Muted secondary highlight
+  --spc-secondary: #6682a2;     // Softer sage green for contrast
+  --spc-secondary-light: #8e9ebb; // Muted secondary highlight
+  --spc-accent: #ffcccb;        // Soft coral for subtle pops of color
+  --spc-accent-light: #ffe4d9;  // Light peach for highlights
+  --spc-accent-dark: #364d20;   // Darker green for depth
+  
+  }

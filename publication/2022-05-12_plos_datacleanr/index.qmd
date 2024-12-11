@@ -1,0 +1,45 @@
+---
+title: "Addressing the need for interactive, efficient, and reproducible data processing in ecology with the datacleanr R package"
+
+author: [{name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Richard L. Peters",     "Christoforos Pappas",     "David N. Steger",   "Ingo Heinrich"]
+     
+date: "2022-05-12"
+
+slug: plos-datacleanr
+
+categories: 
+  - research
+  - software
+
+tags: 
+  - Open Science
+  - Ecophysiology
+  - R
+  
+image: featured.png
+
+featured: yes
+
+
+publication: "*PLOS One*"
+
+
+links:
+- icon: doi
+  icon_pack: ai
+  name: Publication
+  url: https://doi.org/10.1371/journal.pone.0268426
+- icon: laptop-code
+  name: Code
+  url: https://github.com/the-hull/datacleanr
+
+
+
+
+---
+
+## Abstract
+
+
+Ecological research, just as all Earth System Sciences, is becoming increasingly data-rich. Tools for processing of “big data” are continuously developed to meet corresponding technical and logistical challenges. However, even at smaller scales, data sets may be challenging when best practices in data exploration, quality control and reproducibility are to be met. This can occur when conventional methods, such as generating and assessing diagnostic visualizations or tables, become unfeasible due to time and practicality constraints. Interactive processing can alleviate this issue, and is increasingly utilized to ensure that large data sets are diligently handled. However, recent interactive tools rarely enable data manipulation, may not generate reproducible outputs, or are typically data/domain-specific. We developed datacleanr, an interactive tool that facilitates best practices in data exploration, quality control (e.g., outlier assessment) and flexible processing for multiple tabular data types, including time series and georeferenced data. The package is open-source, and based on the R programming language. A key functionality of datacleanr is the “reproducible recipe”—a translation of all interactive actions into R code, which can be integrated into existing analyses pipelines. This enables researchers experienced with script-based workflows to utilize the strengths of interactive processing without sacrificing their usual work style or functionalities from other (R) packages. We demonstrate the package’s utility by addressing two common issues during data analyses, namely 1) identifying problematic structures and artefacts in hierarchically nested data, and 2) preventing excessive loss of data from ‘coarse,’ code-based filtering of time series. Ultimately, with datacleanr we aim to improve researchers’ workflows and increase confidence in and reproducibility of their results.
+

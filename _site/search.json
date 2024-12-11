@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Alexander Hurley",
+    "section": "",
+    "text": "In a nutshell:\n\nI’m an environmental data scientist with a passion for policy, open science and data visualization.\nCurrently, I advise the German Council of Experts on Climate Change on climate change mitigation in the areas of land-use, forestry and agriculture as a policy and data analyst.\nCheck out my CV and my code portfolio.\nGet in touch here!"
+  },
+  {
+    "objectID": "about/index.html#about-me",
+    "href": "about/index.html#about-me",
+    "title": "Alexander Hurley",
+    "section": "About Me",
+    "text": "About Me\n\n\n\nExperience\nAcross the last decade, I led and contributed to several large research projects. Currently, I lead and support work on assessing Germany’s compliance with the Climate Protection Act in LULUCF and agriculture. This includes auditing emissions inventories and projections, as well as analysing policy options for mitigation.\nI enjoy developing open source software for research. For example, datacleanr is used by multiple research groups for reproducible processing of ecophysiological data.\n\n\n\n\nEducation and Teaching\nI am trained in environmental sciences and ecology, data science as well as numerical modelling. My tools of choice are R and python.\nI enjoy teaching methods in statistics, data science and project management, and contribute to open science by delivering workshops and making them openly available.\n\n\n\n\n\nPreviously, I worked on:\n\n\nWetland-forest interactions to support the restoration of oil sand mines in Canada\n\n\nClimate adaptation of urban trees in the Helmholtz Climate Initiative\n\n\nResearch software development\n\n\nModelling ecological systems\n\n\n\n\nMy training includes:\n\n\nCertificate in Data Science ∙ SPICED Academy ∙ 2022\n\n\nPh.D. in Physical Geography ∙ University of Birmingham ∙ 2022\n\n\nM.Sc. in Applied Ecology ∙ University of East Anglia ∙ University of Coimbra ∙ University of Poitiers ∙ 2015\n\n\nB.Sc. in Environmental Science ∙ University of Bayreuth ∙ 2013"
+  },
+  {
+    "objectID": "about/index.html#the-latest",
+    "href": "about/index.html#the-latest",
+    "title": "Alexander Hurley",
+    "section": "The latest …",
+    "text": "The latest …\n\n\nBlog\n\n\n\nSee all →\n\n\nTalks\n\n\n\nSee all →\n\n\nPublications\n\n\n\nSee all →\n\n\nProjects\n\n\n\nSee all →"
+  },
+  {
+    "objectID": "project/index.html",
+    "href": "project/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items\n\n Back to top"
+  },
+  {
+    "objectID": "talk/index.html",
+    "href": "talk/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "No matching items\n\n Back to top"
+  },
+  {
+    "objectID": "publication/2018-10-04_mee_trex/index.html",
+    "href": "publication/2018-10-04_mee_trex/index.html",
+    "title": "Addressing the need for interactive, efficient, and reproducible data processing in ecology with the datacleanr R package",
+    "section": "",
+    "text": "A key ecophysiological measurement is the flow of water (or sap) along the tree’s water-transport system, which is an essential process for maintaining the hydraulic connection within the soil–plant–atmosphere continuum. The thermal dissipation method (TDM) is widespread in the scientific community for measuring sap flow and has provided novel insights into water use and its environmental sensitivity, from the tree- to the forest-stand level. Yet, methodological approaches to determine sap flux density (SFD) from raw TDM measurements remain case-specific, introducing uncertainties and hampering data syntheses and meta-analyses.\nHere, we introduce the r package TREX (TRee sap flow EXtractor), incorporating a wide range of sap flow data-processing procedures to quantify SFD from raw TDM measurements. TREX provides functions for (a) importing and assimilating raw measurements, (b) data quality control and filtering and (c) calculating standardized SFD outputs and their associated uncertainties according to different data-processing methods.\nA case study using a Norway spruce tree illustrates TREX’s functionalities, featuring interactive data curation and generating outputs in a reproducible and transparent way. The calculations of SFD in TREX can, for instance, use the original TDM calibration coefficients, user-supplied calibration parameters or calibration data from a recently compiled database of 22 studies and 37 species. Moreover, the package includes an automatic procedure for quantifying the sensitivity and uncertainty of the obtained results to user-defined assumptions and parameter values, by means of a state-of-the-art global sensitivity analysis.\nTime series of plant ecophysiological measurements are becoming increasingly available and enhance our understanding of climate change impacts on tree functioning. TREX allows for establishing a baseline for data processing of TDM measurements and supports comparability between case studies, facilitating robust, transparent and reproducible large-scale syntheses of sap flow patterns. Moreover, TREX facilitates the simultaneous application of multiple common data-processing approaches to convert raw data to physiological relevant quantities. This allows for robust quantification of the impact (i.e. sensitivity and uncertainty) of user-specific choices and methodological assumptions, which is necessary for process understanding and policy making."
+  },
+  {
+    "objectID": "publication/2018-10-04_mee_trex/index.html#abstract",
+    "href": "publication/2018-10-04_mee_trex/index.html#abstract",
+    "title": "Addressing the need for interactive, efficient, and reproducible data processing in ecology with the datacleanr R package",
+    "section": "",
+    "text": "A key ecophysiological measurement is the flow of water (or sap) along the tree’s water-transport system, which is an essential process for maintaining the hydraulic connection within the soil–plant–atmosphere continuum. The thermal dissipation method (TDM) is widespread in the scientific community for measuring sap flow and has provided novel insights into water use and its environmental sensitivity, from the tree- to the forest-stand level. Yet, methodological approaches to determine sap flux density (SFD) from raw TDM measurements remain case-specific, introducing uncertainties and hampering data syntheses and meta-analyses.\nHere, we introduce the r package TREX (TRee sap flow EXtractor), incorporating a wide range of sap flow data-processing procedures to quantify SFD from raw TDM measurements. TREX provides functions for (a) importing and assimilating raw measurements, (b) data quality control and filtering and (c) calculating standardized SFD outputs and their associated uncertainties according to different data-processing methods.\nA case study using a Norway spruce tree illustrates TREX’s functionalities, featuring interactive data curation and generating outputs in a reproducible and transparent way. The calculations of SFD in TREX can, for instance, use the original TDM calibration coefficients, user-supplied calibration parameters or calibration data from a recently compiled database of 22 studies and 37 species. Moreover, the package includes an automatic procedure for quantifying the sensitivity and uncertainty of the obtained results to user-defined assumptions and parameter values, by means of a state-of-the-art global sensitivity analysis.\nTime series of plant ecophysiological measurements are becoming increasingly available and enhance our understanding of climate change impacts on tree functioning. TREX allows for establishing a baseline for data processing of TDM measurements and supports comparability between case studies, facilitating robust, transparent and reproducible large-scale syntheses of sap flow patterns. Moreover, TREX facilitates the simultaneous application of multiple common data-processing approaches to convert raw data to physiological relevant quantities. This allows for robust quantification of the impact (i.e. sensitivity and uncertainty) of user-specific choices and methodological assumptions, which is necessary for process understanding and policy making."
+  },
+  {
+    "objectID": "publication/2018-02-01_dendro_raptor/index.html",
+    "href": "publication/2018-02-01_dendro_raptor/index.html",
+    "title": "RAPTOR: Row and position tracheid organizer in R",
+    "section": "",
+    "text": "Mechanistic understanding of tree-ring formation and its modelling requires a cellular-based and spatially organized characterization of a tree ring, moving from whole rings, to intra-annual growth zones and individual cells. A tracheidogram is a radial profile of conifer anatomical features, such as lumen area and cell wall thickness, of sequentially- and positionally-ranked tracheids. However, its construction is tedious and time-consuming since image-analysis-based measurements do not recognize the position of cells within a radial file, and present-day tracheidograms must be constructed manually. Here we present the R-package RAPTOR that complements tracheid anatomical data obtained from quantitative wood anatomy software (e.g., ROXAS, WinCELL, ImageJ), with the specific positional information necessary for the automated construction of tracheidograms. The package includes functions to read and visualize tracheid anatomical data, and uses local search algorithms to ascribe a ranked position to each tracheid in identified radial files. The package also provides functions to ensure that tracheids are adequately aligned for identifying the first tracheid in each radial file, and obtaining the correct ranking of tracheids along each radial file. Additional functions allow automating the analyses for multiple samples and rings (batch mode) and exporting data and plots for quality control. RAPTOR allows tracheidogram users to take advantage of the latest generation of cell anatomical measuring systems. With this R-package we aim to facilitate the construction of more robust and versatile tracheidograms for the benefit of the research community."
+  },
+  {
+    "objectID": "publication/2018-02-01_dendro_raptor/index.html#abstract",
+    "href": "publication/2018-02-01_dendro_raptor/index.html#abstract",
+    "title": "RAPTOR: Row and position tracheid organizer in R",
+    "section": "",
+    "text": "Mechanistic understanding of tree-ring formation and its modelling requires a cellular-based and spatially organized characterization of a tree ring, moving from whole rings, to intra-annual growth zones and individual cells. A tracheidogram is a radial profile of conifer anatomical features, such as lumen area and cell wall thickness, of sequentially- and positionally-ranked tracheids. However, its construction is tedious and time-consuming since image-analysis-based measurements do not recognize the position of cells within a radial file, and present-day tracheidograms must be constructed manually. Here we present the R-package RAPTOR that complements tracheid anatomical data obtained from quantitative wood anatomy software (e.g., ROXAS, WinCELL, ImageJ), with the specific positional information necessary for the automated construction of tracheidograms. The package includes functions to read and visualize tracheid anatomical data, and uses local search algorithms to ascribe a ranked position to each tracheid in identified radial files. The package also provides functions to ensure that tracheids are adequately aligned for identifying the first tracheid in each radial file, and obtaining the correct ranking of tracheids along each radial file. Additional functions allow automating the analyses for multiple samples and rings (batch mode) and exporting data and plots for quality control. RAPTOR allows tracheidogram users to take advantage of the latest generation of cell anatomical measuring systems. With this R-package we aim to facilitate the construction of more robust and versatile tracheidograms for the benefit of the research community."
+  },
+  {
+    "objectID": "publication/index.html",
+    "href": "publication/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Assessing urban-heating impact on street tree growth in Berlin with open inventory and environmental data\n\n\n\n\n\n\nresearch\n\n\n\n\n\n\nOct 25, 2023\n\n\nAlexander Hurley, Ingo Heinrich\n\n\n\n\n\n\n\nAddressing the need for interactive, efficient, and reproducible data processing in ecology with the datacleanr R package\n\n\n\n\n\n\nresearch\n\n\nsoftware\n\n\n\n\n\n\nMay 12, 2022\n\n\nAlexander Hurley, Richard L. Peters, Christoforos Pappas, David N. Steger, Ingo Heinrich\n\n\n\n\n\n\n\nUsing R in hydrology: a review of recent developments and future directions\n\n\n\n\n\n\nresearch\n\n\n\n\n\n\nJul 12, 2019\n\n\nLouise J Slater, Guillaume Thirel, Shaun Harrigan, Olivier Delaigue, Alexander Hurley, Abdou Khouakhi, Ilaria Prodoscimi, Claudia Vitolo, Katie Smith\n\n\n\n\n\n\n\nAddressing the need for interactive, efficient, and reproducible data processing in ecology with the datacleanr R package\n\n\n\n\n\n\nresearch\n\n\nsoftware\n\n\n\n\n\n\nOct 4, 2018\n\n\nAlexander Hurley, Richard L. Peters, Christoforos Pappas, David N. Steger, Ingo Heinrich\n\n\n\n\n\n\n\nRAPTOR: Row and position tracheid organizer in R\n\n\n\n\n\n\nresearch\n\n\nsoftware\n\n\n\n\n\n\nFeb 1, 2018\n\n\nRichard L Peters, Daniel Balanzategui, Alexander Hurley, Georg von Arx, Angela Luisa Prendin, Henri E Cuny, Jesper Björklund, David C Frank, Patrick Fonti\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alexander Hurley, PhD",
+    "section": "",
+    "text": "I’m a researcher and open science-enthusiast using data science to inform decisions on climate change mitigation and adaptation as well as nature restoration. I enjoy teaching skills, as well as developing tools and methods, with a focus on sharing them.\nFind out more about me →\n\n    \n    \n  \n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Plants, Policy and Data",
+    "section": "",
+    "text": "No matching items\n\n Back to topReuseCC BY-SA 4.0"
+  },
+  {
+    "objectID": "publication/2019-07-12_hess_using-r/index.html",
+    "href": "publication/2019-07-12_hess_using-r/index.html",
+    "title": "Using R in hydrology: a review of recent developments and future directions",
+    "section": "",
+    "text": "The open-source programming language R has gained a central place in the hydrological sciences over the last decade, driven by the availability of diverse hydro-meteorological data archives and the development of open-source computational tools. The growth of R’s usage in hydrology is reflected in the number of newly published hydrological packages, the strengthening of online user communities, and the popularity of training courses and events. In this paper, we explore the benefits and advantages of R’s usage in hydrology, such as: the democratization of data science and numerical literacy, the enhancement of reproducible research and open science, the access to statistical tools, the ease of connecting R to and from other languages, and the support provided by a growing community. This paper provides an overview of important packages at every step of the hydrological workflow, from the retrieval of hydro-meteorological data, to spatial analysis and cartography, hydrological modelling, statistics, and the design of static and dynamic visualizations, presentations and documents. We discuss some of the challenges that arise when using R in hydrology and useful tools to overcome them, including the use of hydrological libraries, documentation and vignettes (long-form guides that illustrate how to use packages); the role of Integrated Development Environments (IDEs); and the challenges of Big Data and parallel computing in hydrology. Last, this paper provides a roadmap for R’s future within hydrology, with R packages as a driver of progress in the hydrological sciences, Application Programming Interfaces (APIs) providing new avenues for data acquisition and provision, enhanced teaching of hydrology in R, and the continued growth of the community via short courses and events."
+  },
+  {
+    "objectID": "publication/2019-07-12_hess_using-r/index.html#abstract",
+    "href": "publication/2019-07-12_hess_using-r/index.html#abstract",
+    "title": "Using R in hydrology: a review of recent developments and future directions",
+    "section": "",
+    "text": "The open-source programming language R has gained a central place in the hydrological sciences over the last decade, driven by the availability of diverse hydro-meteorological data archives and the development of open-source computational tools. The growth of R’s usage in hydrology is reflected in the number of newly published hydrological packages, the strengthening of online user communities, and the popularity of training courses and events. In this paper, we explore the benefits and advantages of R’s usage in hydrology, such as: the democratization of data science and numerical literacy, the enhancement of reproducible research and open science, the access to statistical tools, the ease of connecting R to and from other languages, and the support provided by a growing community. This paper provides an overview of important packages at every step of the hydrological workflow, from the retrieval of hydro-meteorological data, to spatial analysis and cartography, hydrological modelling, statistics, and the design of static and dynamic visualizations, presentations and documents. We discuss some of the challenges that arise when using R in hydrology and useful tools to overcome them, including the use of hydrological libraries, documentation and vignettes (long-form guides that illustrate how to use packages); the role of Integrated Development Environments (IDEs); and the challenges of Big Data and parallel computing in hydrology. Last, this paper provides a roadmap for R’s future within hydrology, with R packages as a driver of progress in the hydrological sciences, Application Programming Interfaces (APIs) providing new avenues for data acquisition and provision, enhanced teaching of hydrology in R, and the continued growth of the community via short courses and events."
+  },
+  {
+    "objectID": "publication/2022-05-12_plos_datacleanr/index.html",
+    "href": "publication/2022-05-12_plos_datacleanr/index.html",
+    "title": "Addressing the need for interactive, efficient, and reproducible data processing in ecology with the datacleanr R package",
+    "section": "",
+    "text": "Ecological research, just as all Earth System Sciences, is becoming increasingly data-rich. Tools for processing of “big data” are continuously developed to meet corresponding technical and logistical challenges. However, even at smaller scales, data sets may be challenging when best practices in data exploration, quality control and reproducibility are to be met. This can occur when conventional methods, such as generating and assessing diagnostic visualizations or tables, become unfeasible due to time and practicality constraints. Interactive processing can alleviate this issue, and is increasingly utilized to ensure that large data sets are diligently handled. However, recent interactive tools rarely enable data manipulation, may not generate reproducible outputs, or are typically data/domain-specific. We developed datacleanr, an interactive tool that facilitates best practices in data exploration, quality control (e.g., outlier assessment) and flexible processing for multiple tabular data types, including time series and georeferenced data. The package is open-source, and based on the R programming language. A key functionality of datacleanr is the “reproducible recipe”—a translation of all interactive actions into R code, which can be integrated into existing analyses pipelines. This enables researchers experienced with script-based workflows to utilize the strengths of interactive processing without sacrificing their usual work style or functionalities from other (R) packages. We demonstrate the package’s utility by addressing two common issues during data analyses, namely 1) identifying problematic structures and artefacts in hierarchically nested data, and 2) preventing excessive loss of data from ‘coarse,’ code-based filtering of time series. Ultimately, with datacleanr we aim to improve researchers’ workflows and increase confidence in and reproducibility of their results."
+  },
+  {
+    "objectID": "publication/2022-05-12_plos_datacleanr/index.html#abstract",
+    "href": "publication/2022-05-12_plos_datacleanr/index.html#abstract",
+    "title": "Addressing the need for interactive, efficient, and reproducible data processing in ecology with the datacleanr R package",
+    "section": "",
+    "text": "Ecological research, just as all Earth System Sciences, is becoming increasingly data-rich. Tools for processing of “big data” are continuously developed to meet corresponding technical and logistical challenges. However, even at smaller scales, data sets may be challenging when best practices in data exploration, quality control and reproducibility are to be met. This can occur when conventional methods, such as generating and assessing diagnostic visualizations or tables, become unfeasible due to time and practicality constraints. Interactive processing can alleviate this issue, and is increasingly utilized to ensure that large data sets are diligently handled. However, recent interactive tools rarely enable data manipulation, may not generate reproducible outputs, or are typically data/domain-specific. We developed datacleanr, an interactive tool that facilitates best practices in data exploration, quality control (e.g., outlier assessment) and flexible processing for multiple tabular data types, including time series and georeferenced data. The package is open-source, and based on the R programming language. A key functionality of datacleanr is the “reproducible recipe”—a translation of all interactive actions into R code, which can be integrated into existing analyses pipelines. This enables researchers experienced with script-based workflows to utilize the strengths of interactive processing without sacrificing their usual work style or functionalities from other (R) packages. We demonstrate the package’s utility by addressing two common issues during data analyses, namely 1) identifying problematic structures and artefacts in hierarchically nested data, and 2) preventing excessive loss of data from ‘coarse,’ code-based filtering of time series. Ultimately, with datacleanr we aim to improve researchers’ workflows and increase confidence in and reproducibility of their results."
+  },
+  {
+    "objectID": "publication/2023-10-25_ue_urban-trees/index.html",
+    "href": "publication/2023-10-25_ue_urban-trees/index.html",
+    "title": "Assessing urban-heating impact on street tree growth in Berlin with open inventory and environmental data",
+    "section": "",
+    "text": "Excess heat (i.e., Urban Heat Island; UHI) and other urban conditions affect tree physiology with outcomes from enhanced growth to mortality. Resilient urban forests in the face of climate change require species-specific understanding of growth responses. However, previous studies assessing growth dynamics were primarily based on remote sensing of communities rather than individuals, or relied on labor-intensive methods that can limit the spatial coverage necessary to account for highly variable urban growing conditions. Here, we analyze growth dynamics of common urban street tree species over time and across space for Berlin (Germany) combining dendroecological (temporal) and inventory assessments (spatial). First, we show annual increments increased across the 20th century for early (i.e., young) growth. Second, we use an approach relying on open inventory data to identify growth potential in relation to excess heat while accounting for age, potential management effects, and the urban fabric (i.e., planting area; building density, height; available soil nutrients) with generalized additive models for the ten most abundant species. Our analyses showed that younger trees may benefit from increased temperatures, while older individuals feature lower growth at greater UHI magnitudes. Furthermore, planting area as well as building density modulate growth responses to temperature. Lastly, we discuss management implications in the context of climate change mitigation, considering that younger trees are predominantly located at UHI “hot spots” and will undergo the observed age-dependent shift in temperature-growth sensitivity. By relying on increasingly available open data, our approach here is or will be transferable to other urban regions."
+  },
+  {
+    "objectID": "publication/2023-10-25_ue_urban-trees/index.html#abstract",
+    "href": "publication/2023-10-25_ue_urban-trees/index.html#abstract",
+    "title": "Assessing urban-heating impact on street tree growth in Berlin with open inventory and environmental data",
+    "section": "",
+    "text": "Excess heat (i.e., Urban Heat Island; UHI) and other urban conditions affect tree physiology with outcomes from enhanced growth to mortality. Resilient urban forests in the face of climate change require species-specific understanding of growth responses. However, previous studies assessing growth dynamics were primarily based on remote sensing of communities rather than individuals, or relied on labor-intensive methods that can limit the spatial coverage necessary to account for highly variable urban growing conditions. Here, we analyze growth dynamics of common urban street tree species over time and across space for Berlin (Germany) combining dendroecological (temporal) and inventory assessments (spatial). First, we show annual increments increased across the 20th century for early (i.e., young) growth. Second, we use an approach relying on open inventory data to identify growth potential in relation to excess heat while accounting for age, potential management effects, and the urban fabric (i.e., planting area; building density, height; available soil nutrients) with generalized additive models for the ten most abundant species. Our analyses showed that younger trees may benefit from increased temperatures, while older individuals feature lower growth at greater UHI magnitudes. Furthermore, planting area as well as building density modulate growth responses to temperature. Lastly, we discuss management implications in the context of climate change mitigation, considering that younger trees are predominantly located at UHI “hot spots” and will undergo the observed age-dependent shift in temperature-growth sensitivity. By relying on increasingly available open data, our approach here is or will be transferable to other urban regions."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "You were saying? ",
+    "section": "",
+    "text": "You were saying? \n\nFeel free to get in touch with me about collaborating, workshops and other (professional) opportunities. Feedback in any form is also greatly appreciated!\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "All blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License unless stated otherwise.\n\n  \n\n\n\n\n Back to top"
+  }
+]

@@ -1,0 +1,42 @@
+---
+pagetitle: Alexander Hurley - Contact
+# title: Send me a note
+name: Contact Form
+page-layout: article
+format: 
+  html: 
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+
+header-includes: >
+  <link rel="stylesheet" href="assets/contact.css">
+resources:
+  - assets/contact.css
+---
+
+
+# You were saying? {{< fa paper-plane >}}
+
+<br>
+
+Feel free to get in touch with me about collaborating, workshops and other (professional) opportunities. 
+Feedback in any form is also greatly appreciated!
+
+
+<br>
+
+<form action="https://formspree.io/f/xovqzyav" method="POST" accept-charset="utf-8">
+
+
+<label for="full-name">**Full Name**</label>
+<input type="text" name="name" id="full-name" class="form-control" placeholder="First and Last" required>
+
+<label for="email-address">**Email Address**</label>
+<input type="email" name="_replyto" id="email-address" class="form-control" placeholder="your@email.here" required>
+
+<label for="message">**Message**</label>
+  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Share your thoughts, ideas or questions here." required></textarea>
+
+<button type="submit" class="btn btn-primary mt-4">Send message</button>
+</form>

@@ -1,0 +1,20 @@
+/*-- scss:mixins --*/
+// Mixin for @font-face
+@mixin font-face($family, $weight, $style, $paths...) {
+    @font-face {
+      font-family: $family;
+      font-weight: $weight;
+      font-style: $style;
+      src: url(nth($paths, 1)) format("woff2");
+    }
+  }
+  
+/*-- scss:rules --*/
+// Import Google Fonts
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Petrona:wght@200;300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@200;300;400;700&display=swap";  
+
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;700&display=swap";  
+@import "https://fonts.googleapis.com/css2?family=Lora:wght@200;300;400;700&display=swap";  
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap";  

@@ -1,0 +1,7 @@
+---
+title: "404"
+---
+
+# We are lost: this page can't be found <i class="fas fa-search pr2"></i>
+
+Head back to the [homepage](/) or use the search feature.

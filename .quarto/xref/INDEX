@@ -1,0 +1,62 @@
+{
+  "index.qmd": {
+    "index.html": "e437b720"
+  },
+  "blog/index.qmd": {
+    "index.html": "8d90e831"
+  },
+  "about/index.qmd": {
+    "index.html": "95c4c4ab"
+  },
+  "talk/index.qmd": {
+    "index.html": "ffea4b23"
+  },
+  "publication/index.qmd": {
+    "index.html": "480716c8"
+  },
+  "contact.qmd": {
+    "contact.html": "26fc9f41"
+  },
+  "publication/2019-02-01_HESS_using-r/index.qmd": {
+    "index.html": "7adb3f97"
+  },
+  "publication/2019-07-12_HESS_using-r/index.qmd": {
+    "index.html": "87fa6148"
+  },
+  "publication/2018-02-01_Dendro_RAPTOR/index.qmd": {
+    "index.html": "109065de"
+  },
+  "project/index.qmd": {
+    "index.html": "73cd8228"
+  },
+  "license.qmd": {
+    "license.html": "41069a4b"
+  },
+  "publication/2018-10-04_MEE_TREX/index.qmd": {
+    "index.html": "ba59aee2"
+  },
+  "publication/2023-10-25_UE_Urban-Trees/index.qmd": {
+    "index.html": "f3db7a13"
+  },
+  "publication/2022-05-12_plos_datacleanr/index.qmd": {
+    "index.html": "cef80db7"
+  },
+  "publication/2019-07-12_hess_using-r/index.qmd": {
+    "index.html": "b9895e88"
+  },
+  "publication/2018-02-01_dendro_raptor/index.qmd": {
+    "index.html": "f1dbd103"
+  },
+  "publication/2023-10-25_ue_urban-trees/index.qmd": {
+    "index.html": "348f9dfc"
+  },
+  "publication/2018-10-04_mee_trex/index.qmd": {
+    "index.html": "55c4c253"
+  },
+  "about.qmd": {
+    "about.html": "027f2122"
+  },
+  "404.qmd": {
+    "404.html": "41c79ce8"
+  }
+}

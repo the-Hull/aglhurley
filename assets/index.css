@@ -1,0 +1,167 @@
+div.quarto-about-solana .about-entity .about-image {
+  object-fit: cover;
+  /* border-radius: 50% !important; */
+}
+
+/* title */
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+  line-height: 1.1em !important;
+}
+
+/* subtitle + Learn More About Me */
+.subtitle {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.07em;
+  line-height: 2.0rem;
+  /* list-style-position: inside; Ensures bullets and text align correctly */
+  white-space: nowrap; /* Prevents unwanted line breaks between bullets and text */
+}
+
+.subtitle li {
+  font-family: "Open Sans";
+  margin: 0; /* Removes extra spacing */
+  padding: 0; /* Removes extra padding */
+  display: list-item; /* Ensures proper rendering as a list item */
+  white-space: normal; /* Allows text to wrap inside the list item if necessary */
+}
+
+.subtitle li::marker {
+  white-space: normal; /* Ensures the marker aligns properly with the text */
+}
+
+
+/* heading, subtitle, and blurb */
+.entity-contents {
+  text-align: right !important;
+  padding: 0 2em 0 2em;
+}
+
+/* blurb */
+.about-contents {
+  padding: 0 0 0 2em !important;
+}
+
+/* social links: block of links */
+.about-entity li {
+  margin: 0; /* Removes extra spacing */
+  padding: 0; /* Removes extra padding */
+  display: list-item; /* Ensures proper rendering as a list item */
+  white-space: normal; /* Allows text to wrap inside the list item if necessary */
+}
+
+
+/* social links: block of links */
+.about-entity .about-links {
+  justify-content: flex-end !important;
+  column-gap: 0em !important;
+  font-size: 1.2em !important;
+}
+
+/* social links: individual links */
+.about-entity .about-link {
+  padding: 0.25em 0.25em !important;
+  border: none !important;  
+}
+
+/* Learn More About Me */
+.about-links.subtitle {
+  font-size: 1em !important;
+  font-family: "Open Sans";
+  justify-content: flex-end !important;
+}
+
+/* image */
+.about-image {
+  margin-top: -2em;
+  padding: 0 2em 0em 0;
+  border-radius: 50%;
+}
+
+/* // Home
+
+// social links
+.about-entity {
+  // block of links
+  .about-links {
+    column-gap: 0em !important;
+    font-size: 1.2em;
+  }
+  // individual links
+  .about-link {
+    padding: 0.25em 0.25em !important;
+    border: none !important;
+  }
+} */
+
+/* mobile query up for screens up to ~992px wide */
+@media screen and (max-width: 991.98px) {
+    /* move text up & center */
+    .entity-contents {
+      order: 2 !important;
+      margin: -4em 0 0 0 !important;
+      padding: 0 0 0 0em !important;
+      text-align: center !important;
+    }
+
+    /* center subtitle
+    .subtitle {
+      text-align: center !important;
+    } */
+
+
+/* subtitle + Learn More About Me */
+.subtitle {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.07em;
+  /* list-style-position: inside; Ensures bullets and text align correctly */
+  white-space: nowrap; /* Prevents unwanted line breaks between bullets and text */
+}
+
+
+.subtitle li {
+  font-family: "Open Sans";
+  margin: 0; /* Removes extra spacing */
+  padding: 0; /* Removes extra padding */
+  display: list-item; /* Ensures proper rendering as a list item */
+  white-space: normal; /* Allows text to wrap inside the list item if necessary */
+}
+
+.subtitle li::marker {
+  white-space: normal; /* Ensures the marker aligns properly with the text */
+}
+
+
+  
+
+    /* social links: block of links */
+    .about-entity .about-links {
+      justify-content: center !important;
+      font-size: 1em !important;
+    }
+
+    /* blurb */
+    .about-contents {
+      padding: 0 0 0 0em !important;
+    }
+
+    /* center Learn More About Me */
+    .about-links.subtitle {
+      justify-content: center !important;
+    }
+
+    /* move image up, adjust padding */
+    .about-image {
+      order: 1 !important;
+      padding: 0 2em 0 2em !important;
+      border-radius: 50%;
+    }
+}
