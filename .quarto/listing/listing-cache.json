@@ -1,27 +1,14 @@
 {
   "listingMap": {
     "blog/index.qmd": [
-      "**/index.qmd",
-      "**/index.markdown",
-      "**/index.md",
       "B3049D40"
     ],
-    "about/index.qmd": [
-      "../blog/*/index.qmd",
-      "../blog/*/index.markdown",
-      "../talk/*/index.qmd",
-      "../talk/*/index.markdown",
-      "../publication/*/index.qmd",
-      "../publication/*/index.markdown",
-      "../project/*/index.qmd",
-      "../project/*/index.markdown"
-    ],
-    "talk/index.qmd": [
+    "publication/index.qmd": [
       "**/index.qmd",
       "**/index.markdown",
       "**/index.md"
     ],
-    "publication/index.qmd": [
+    "talk/index.qmd": [
       "**/index.qmd",
       "**/index.markdown",
       "**/index.md"
