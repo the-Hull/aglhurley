@@ -1,6 +1,6 @@
 ---
 title: "Alexander Hurley, PhD"
-pagetitle: "Environmental data scientist"
+pagetitle: "Alexander Hurley"
 subtitle: "&bull; Environmental data scientist <br>
 &bull; Policy analyst <br>
 &bull; Open science enthusiast"
