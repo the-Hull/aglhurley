@@ -3,7 +3,6 @@ title: "Assimilate, process and analyse thermal dissipation sap flow data using 
 
 author: [ "Richard L. Peters", "Christoforos Pappas", {name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Rafael Poyatos", "Victor Flo", "Roman Zweifel", "Willem Goossens", "Kathy Steppe"]
 
-Richard L. Peters, Christoforos Pappas, Alexander G. Hurley, Rafael Poyatos, Victor Flo, Roman Zweifel, Willem Goossens, Kathy Steppe
 
 slug: mee-trex
 
