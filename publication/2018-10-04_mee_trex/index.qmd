@@ -1,12 +1,14 @@
 ---
-title: "Addressing the need for interactive, efficient, and reproducible data processing in ecology with the datacleanr R package"
+title: "Assimilate, process and analyse thermal dissipation sap flow data using the TREX r package"
 
-author: [{name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Richard L. Peters", "Christoforos Pappas", "David N. Steger", "Ingo Heinrich"]
+author: [ "Richard L. Peters", "Christoforos Pappas", {name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Rafael Poyatos", "Victor Flo", "Roman Zweifel", "Willem Goossens", "Kathy Steppe"]
+
+Richard L. Peters, Christoforos Pappas, Alexander G. Hurley, Rafael Poyatos, Victor Flo, Roman Zweifel, Willem Goossens, Kathy Steppe
 
 slug: mee-trex
 
 
-date: "2018-10-04"
+date: "2020-11-04"
 
 categories: 
   - research
