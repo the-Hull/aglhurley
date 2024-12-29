@@ -1,0 +1,42 @@
+---
+title: "Site matters-Canopy conductance regulation in mature temperate trees diverges at two sites with contrasting soil water availability"
+
+author: ["David N Steger", "Richard L Peters", "Theresa Blume", {name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Daniel Balanzategui", "Daniel F Balting", "Ingo Heinrich"]
+
+date: "2024-02-15"
+
+slug: agfm-cnaopy
+
+categories: 
+  - research
+
+tags: 
+  - Acclimation
+  - Stomata
+  - VPD
+  - Sap flow
+  - Dendrometer
+  
+  
+
+
+featured: yes
+
+
+publication: "*Agricultural and Forest Meteorology*"
+
+
+links:
+- icon: doi
+  icon_pack: ai
+  name: Publication
+  url: https://doi.org/10.1016/j.agrformet.2023.109850
+
+
+
+---
+
+## Abstract
+
+
+Tree-specific canopy conductance (Gc) and its adjustment play a critical role in mitigating excess water loss in changing environmental conditions. However, the change of Gc sensitivity to environmental conditions due to drought remains unclear for European tree species. Here we quantified the environmental operational space of Gc, i.e., the water supply (soil moisture, tree water deficit) and demand conditions (vapor pressure deficit) under which Gc ≥ 50% is possible (Gc50OS), at two sites with different soil water availability for three common European tree species. We collected sap flow and dendrometer measurements for co-occurring Pinus sylvestris, Fagus sylvatica and Quercus petraea growing under different soil hydrological conditions (drier/wetter). These measurements were combined with meteorological variables and soil moisture conditions in five depths. Dendrometer measurements were used to confirm soil water availability patterns. For all analyses, the contrasting soil hydrology between sites was the main driver of Gc response. At the drier sites, F. sylvatica and P. sylvestris reduced their water consumption in response to decreasing soil water supply earlier in the growing season than Q. petraea. However, our analysis on the Gc50OS revealed that at the drier sites, F. sylvatica and Q. petraea reduced the extent of their Gc50OS to a higher degree than P. sylvestris. This indicates a higher level of Gc50OS adjustment to the drier site conditions for the two broadleaved species. These differences were more pronounced when using the dendrometer-derived tree internal water status as proxy for tree water supply. Our results provide preliminary evidence for diverging short-term Gc responses when temperate trees are exposed to prolonged reduction in water availability. These findings suggest that Gc50OS can help to constrain species-specific predictions of water use by mature trees, especially when combined with high-resolution water potential measurements.

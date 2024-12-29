@@ -1,0 +1,42 @@
+---
+title: "Wood anatomy of Douglas-fir in Eastern Arizona and its relationship with Pacific Basin climate"
+
+author: ["Daniel Balanzategui", "Henry Nordhauß", "Ingo Heinrich", "Franco Biondi", "Nicholas Miley", {name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Emanuele Ziaco"]
+
+
+date: "2022-09-01"
+
+slug: fips-wood-anatomy
+
+categories: 
+  - research
+
+tags: 
+  - tree growth
+  - late wood
+  - early wood
+  - climate-growth relationships
+  
+
+
+featured: yes
+
+
+publication: "*Frontiers in Plant Science*"
+
+
+links:
+- icon: doi
+  icon_pack: ai
+  name: Publication
+  url: https://doi.org/10.3389/fpls.2021.702442
+
+
+
+
+---
+
+## Abstract
+
+
+Dendroclimatic reconstructions, which are a well-known tool for extending records of climatic variability, have recently been expanded by using wood anatomical parameters. However, the relationships between wood cellular structures and large-scale climatic patterns, such as El Niño-Southern Oscillation (ENSO) and the Pacific Decadal Oscillation (PDO), are still not completely understood, hindering the potential for wood anatomy as a paleoclimatic proxy. To better understand the teleconnection between regional and local climate processes in the western United States, our main objective was to assess the value of these emerging tree-ring parameters for reconstructing climate dynamics. Using Confocal Laser Scanning Microscopy, we measured cell lumen diameter and cell wall thickness (CWT) for the period 1966 to 2015 in five Douglas-firs [Pseudotsuga menziesii (Mirb.) Franco] from two sites in eastern Arizona (United States). Dendroclimatic analysis was performed using chronologies developed for 10 equally distributed sectors of the ring and daily climatic records to identify the strongest climatic signal for each sector. We found that lumen diameter in the first ring sector was sensitive to previous fall–winter temperature (September 25th to January 23rd), while a precipitation signal (October 27th to February 13th) persisted for the entire first half of the ring. The lack of synchronous patterns between trees for CWT prevented conducting meaningful climate-response analysis for that anatomical parameter. Time series of lumen diameter showed an anti-phase relationship with the Southern Oscillation Index (a proxy for ENSO) at 10 to 14year periodicity and particularly in 1980–2005, suggesting that chronologies of wood anatomical parameters respond to multidecadal variability of regional climatic modes. Our findings demonstrate the potential of cell structural characteristics of southwestern United States conifers for reconstructing past climatic variability, while also improving our understanding of how large-scale ocean–atmosphere interactions impact local hydroclimatic patterns.

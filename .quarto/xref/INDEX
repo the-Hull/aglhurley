@@ -58,5 +58,20 @@
   },
   "404.qmd": {
     "404.html": "41c79ce8"
+  },
+  "publication/2024-06-24_wrr_connectivity/index.qmd": {
+    "index.html": "ee3634e6"
+  },
+  "publication/2024-02-15_agfm_canopy/index.qmd": {
+    "index.html": "23d3c91a"
+  },
+  "publication/2023-06-01_je_legacy-effects/index.qmd": {
+    "index.html": "ebf32a67"
+  },
+  "publication/2022-08-15_agfm_xylem-poristy/index.qmd": {
+    "index.html": "8bf78a38"
+  },
+  "publication/2022-09-21_fips_wood-anatomy/index.qmd": {
+    "index.html": "0cb72ca2"
   }
 }

@@ -1,0 +1,43 @@
+---
+title: "Enhanced Hydrologic Connectivity and Solute Dynamics Following Wildfire and Drought in a Contaminated Temperate Peatland Catchment"
+
+author: ["Abbey L Marcotte", "Juul Limpens", "João Pedro Nunes", "Ben C Howard", {name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Kieran Khamis", "Stefan Krause", "Danny Croghan", "Angeliki Kourmouli", "Samantha Leader", "Tanu Singh", "Cathelijne R Stoof", "Sami Ullah", "Nicholas Kettridge"]
+
+date: "2024-06-24"
+
+slug: wrr-connectivity
+
+categories: 
+  - research
+
+tags: 
+  - Wildfire
+  - Peatland
+  - Connecitivity
+  - Transport
+  
+
+
+featured: yes
+
+
+publication: "*Water Resources Research*"
+
+
+links:
+- icon: doi
+  icon_pack: ai
+  name: Publication
+  url: https://doi.org/10.1029/2023WR036412
+- icon: laptop-code
+  name: Data
+  url: https://doi.org/10.5281/zenodo.11235836
+
+
+
+---
+
+## Abstract
+
+
+Peatlands are defined by their accumulated organic matter, providing valuable natural services such as storing carbon, and regulating climate, water quality and runoff. Such capability may be reduced when peatlands are impacted by extreme wildfires and droughts. We studied impacts of a severe wildfire and drought on stream water quality in a peatland catchment in the UK, within a region that may be more frequently impacted by these events in the future due to changing climate. This peatland also stores pollutants (namely metals emitted and retained during the industrial revolution), further enhancing risks to drinking water quality. We determined how the wildfire affected instream chemistry post-fire, and how nutrients and metals moved through the catchment. We found that levels of nutrients in the stream flow increased immediately after the wildfire, followed by a decrease with time. However, the levels of metals increased during the following autumn and spring. This suggests that metals were released later and came from different parts of the catchment compared to the nutrients. Our results show that following the fire, the way water flowed through the catchment played an important role in how substances were transported. The impacts on water quality were most pronounced in the first months post-wildfire and seemed to be short-lived.

@@ -8,17 +8,22 @@
     "items": []
   },
   {
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
     "listing": "/publication/index.html",
     "items": [
+      "/publication/2024-06-24_wrr_connectivity/index.html",
+      "/publication/2024-02-15_agfm_canopy/index.html",
       "/publication/2023-10-25_ue_urban-trees/index.html",
+      "/publication/2023-06-01_je_legacy-effects/index.html",
+      "/publication/2022-09-21_fips_wood-anatomy/index.html",
+      "/publication/2022-08-15_agfm_xylem-poristy/index.html",
       "/publication/2022-05-12_plos_datacleanr/index.html",
       "/publication/2018-10-04_mee_trex/index.html",
       "/publication/2019-07-12_hess_using-r/index.html",
       "/publication/2018-02-01_dendro_raptor/index.html"
     ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": []
   }
 ]

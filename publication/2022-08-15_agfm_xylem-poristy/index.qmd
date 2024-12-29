@@ -1,0 +1,45 @@
+---
+title: "Xylem porosity, sapwood characteristics, and uncertainties in temperate and boreal forest water use"
+
+author: ["Christoforos Pappas", "Nicolas Bélanger", "Gabriel Bastien-Beaudet", "Catherine Couture", "Loïc D'Orangeville", "Louis Duchesne", "Fabio Gennaretti", "Daniel Houle", {name: "**Alexander Hurley**", orcid: 0000-0002-9641-2805}, "Stefan Klesse", "Simon Lebel Desrosiers", "Miguel Montoro Girona", "Richard L Peters", "Sergio Rossi", "Karel St-Amand", "Daniel Kneeshaw"]
+
+
+
+date: "2022-08-15"
+
+slug: agfm-xylem
+
+categories: 
+  - research
+
+tags: 
+  - sap flow
+  - allometry
+  - water use
+  - boreal
+  
+
+
+featured: yes
+
+
+publication: "*Agricultural and Forest Meteorology*"
+
+
+links:
+- icon: doi
+  icon_pack: ai
+  name: Publication
+  url: https://doi.org/10.1016/j.agrformet.2022.109092
+- icon: laptop-code
+  name: Data
+  url: https//doi.org/10.5281/zenodo.6862864
+
+
+
+---
+
+## Abstract
+
+
+Sapwood characteristics, such as sapwood area as well as thermal and hydraulic conductivity, are linked to species-specific hydraulic function and resource allocation to water transport tissues (xylem). These characteristics are often unknown and thus a major source of uncertainty in sap flow data processing and transpiration estimates because bulk rather than species-specific values are usually applied. Here, we analyzed the sapwood characteristics of fifteen common tree species in eastern North America from different taxonomic (i.e., angiosperms and gymnosperms) and xylem porosity groups (i.e., tracheid-bearing, diffuse- or ring-porous species) and we assessed how uncertainties in sapwood characteristics involved in sap flow calculations are propagated in tree water use estimates. We quantified their sapwood area changes with stem diameter (allometric scaling) and thermal conductivity. We combined these measurements with species-specific values of wood density and hydraulic conductivity found in the literature and assessed the role of wood anatomy in orchestrating their covariation. Using an example sap flow dataset from tree species with different xylem porosity, we assessed the sensitivity of tree water use estimates to sapwood characteristics and their interactions. Angiosperms (ring- and diffuse-porous species), with specialized vessels for water transport, showed a steeper relationship (scaling) between tree stem diameter and sapwood area in comparison to gymnosperms (tracheid-bearing species). Gymnosperms (angiosperms) were characterized by lower (higher) wood density and higher (lower) sapwood moisture content, resulting in non-significant differences in sapwood thermal conductivity between taxonomic and xylem porosity groups. Clustering of species sapwood characteristics based on taxonomic or xylem porosity groups and constraining these parameters could facilitate more accurate sap flow calculations and tree water use estimates. When combined with an increasing number of sap flow observations, these findings should improve tree- and landscape-level transpiration estimates, leading to more robust partitioning of terrestrial water fluxes.
